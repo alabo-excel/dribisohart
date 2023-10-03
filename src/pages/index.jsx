@@ -1,6 +1,7 @@
 import React, { Fragment } from 'react';
 import { Carousel } from 'antd';
 import FrontLayout from '@/layout/FrontLayout';
+import Link from 'next/link';
 
 
 export default function Home() {
@@ -30,7 +31,9 @@ export default function Home() {
               <br /> <br />
               Dr. Ibiso got an Executive Masters Certificate (EMC) in Human Resources Management from the East Midlands School of Business & Management in the United Kingdom, inspired by her desire for continual learning and professional development. Her dedication to perfection prompted her to pursue a Doctorate in Strategic Management and Leadership at The University of America, Curaçao.
             </p>
-            <button className="p-4 bg-[#011627] lg:text-base text-sm rounded-md text-white lg:w-44 w-full my-4">Learn More</button>
+            <Link href="/about">
+              <button className="p-4 bg-[#011627] lg:text-base text-sm rounded-md text-white lg:w-44 w-full my-4">Learn More</button>
+            </Link>
           </div>
         </div>
         <div className='lg:w-1/2 mx-auto my-20 text-center'>
@@ -53,7 +56,7 @@ export default function Home() {
             </Carousel>
           </div>
         </div>
-        <div className='bg-[#dddddd] text-center lg:px-32 py-20'>
+        <div id='contact' className='bg-[#dddddd] text-center lg:px-32 py-20'>
           <div className='mb-10 lg:w-[70%] lg:p-0 p-4 mx-auto lg:text-base text-sm'>
             <div className='mb-10'>
               <h1 className='lg:text-3xl text-xl font-bold'>Contact Me</h1>

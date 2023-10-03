@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link';
 
 const FooterNav = () => {
   const date = new Date()
@@ -7,10 +8,14 @@ const FooterNav = () => {
   return (
     <div className='bg-[#011627] lg:text-base text-sm text-white p-6'>
       <div className='flex justify-evenly my-6 lg:w-1/2 mx-auto'>
-        <p className='my-auto'>Home</p>
-        <p className='my-auto'>About</p>
+        <Link href='/'>
+          <p className='my-auto'>Home</p>
+        </Link>
+        <Link href="/about">
+          <p className='my-auto'>About</p>
+        </Link>
         <p className='my-auto'>Blog</p>
-        <p className='my-auto'>Contact</p>
+        <Link href="/#contact"><p className='my-auto'>Contact</p></Link>
       </div>
 
       <div className='my-10 lg:w-[40%] mx-auto flex justify-evenly'>

@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import React, { useState } from 'react';
 
 const HeaderNav = () => {
@@ -16,21 +17,21 @@ const HeaderNav = () => {
         {/* <h1 className='text-3xl font-bold'>Dr. Ibiso .D. Hart</h1> */}
         <img src="./images/logo.png" className='w-11 h-11' alt="" />
         <div className='lg:flex hidden text-base justify-between w-[30%]'>
-          <p className='my-auto'>Home</p>
-          <p className='my-auto'>About</p>
+          <p className='my-auto'><Link href='/'>Home</Link></p>
+          <p className='my-auto'><Link href="/about">About</Link></p>
           <p className='my-auto'>Blog</p>
-          <button className='bg-white rounded-full p-2 w-32 text-[#011627]'>Contact Me</button>
+          <Link href='/#contact'><button className='bg-white rounded-full p-2 w-32 text-[#011627]'>Contact Me</button></Link>
         </div>
-        <img onClick={() => openNav()} className='lg:hidden block w-8 burger' src="./images/icons8-hamburger.svg" alt="" />
+        <img onClick={() => openNav()} className='lg:hidden block w-6 burger' src="./images/icons8-hamburger.svg" alt="" />
       </div>
       <div id="mySidenav" className='sidenav'>
         <div className="w-[90%] mx-auto">
           <p onClick={() => closeNav()} className="float-right text-4xl cursor-pointer">&times;</p>
           <div className="pt-20"></div>
-          <p className='my-5'>Home</p>
-          <p className='my-5'>About</p>
+          <Link onClick={() => closeNav()} href='/'><p className='my-5'>Home</p></Link>
+          <Link onClick={() => closeNav()} href='/about'><p className='my-5'>About</p></Link>
           <p className='my-5'>Blog</p>
-          <button className='bg-white my-5 rounded-full w-full p-4 text-[#011627]'>Contact Me</button>
+          <Link href='/#contact'><button onClick={() => closeNav()} className='bg-white my-5 rounded-full w-full p-4 text-[#011627]'>Contact Me</button></Link>
         </div>
       </div>
     </div>
