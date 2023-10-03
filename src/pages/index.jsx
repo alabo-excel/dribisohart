@@ -23,7 +23,7 @@ export default function Home() {
 
       </Head>
       <HeaderNav />
-      <div className="lg:flex mt-4 justify-between lg:h-[90vh] lg:px-32 px-2">
+      <div id="main" className="lg:flex mt-4 justify-between lg:h-[90vh] lg:px-32 px-4">
         <div className="lg:w-1/2 lg:order-last order-first">
           <img src="./images/hero.png" alt="Hero img" />
         </div>
@@ -33,7 +33,7 @@ export default function Home() {
           <p className="my-5">I am a natural-born leader who inspires and motivates those around me. Through her actions and words, I instil a sense of purpose and direction, empowering individuals to strive for their best.</p>
         </div>
       </div>
-      <div className="lg:flex bg-[#FBFBFB] justify-between lg:py-20 py-10 lg:px-32 px-2">
+      <div className="lg:flex bg-[#FBFBFB] justify-between lg:py-20 py-10 lg:px-32 px-4">
         <div className="lg:w-[45%]">
           <img src="./images/IMGL9467.jpg" className="lg:h-[85vh] h-[60vh] w-full object-cover rounded-2xl" alt="" />
         </div>
