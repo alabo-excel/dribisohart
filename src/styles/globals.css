@@ -88,3 +88,10 @@ main {
     display: none;
   }
 }
+
+
+input:focus,
+button:focus,
+textarea:focus {
+  outline: none;
+}

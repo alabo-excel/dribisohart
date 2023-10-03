@@ -12,9 +12,9 @@ const HeaderNav = () => {
   }
   return (
     <div>
-      <div className='p-6 flex justify-between text-white bg-[#011627] lg:px-32'>
-        <h1 className='text-3xl font-bold'>Dr. Ibiso .D. Hart</h1>
-        {/* <img src="./images/logo.png" className='w-16 h-16' alt="" /> */}
+      <div className='p-4 flex justify-between text-white bg-[#011627] lg:px-32'>
+        {/* <h1 className='text-3xl font-bold'>Dr. Ibiso .D. Hart</h1> */}
+        <img src="./images/logo.png" className='w-11 h-11' alt="" />
         <div className='lg:flex hidden text-base justify-between w-[30%]'>
           <p className='my-auto'>Home</p>
           <p className='my-auto'>About</p>
