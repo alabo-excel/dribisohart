@@ -9,7 +9,7 @@ const About = () => {
       <main className='lg:mx-32 mx-6'>
 
         <div className='lg:flex lg:my-40 my-8 lg:text-base text-sm justify-between'>
-          <img className='lg:w-1/2' src="./images/IMGL9344.jpg" alt="" />
+          <img className='lg:w-1/2' src="./images/img.jpeg" alt="" />
           <div className='lg:w-[45%] my-auto'>
             <h3 className='font-bold text-xl my-5'>Educational Qualifications</h3>
             <ul>
