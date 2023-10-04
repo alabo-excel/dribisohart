@@ -5,7 +5,7 @@ import Link from 'next/link';
 
 
 export default function Home() {
- 
+
   return (
     <FrontLayout>
       <main>
@@ -53,7 +53,7 @@ export default function Home() {
               In her diverse professional journey, Dr Ibiso has consistently delivered exceptional results, driving operational excellence, strategic growth, and fostering a culture of innovation in organisations.
             </p>
             <Link href="/about">
-              <button className="p-4 bg-[#011627] lg:text-base text-sm rounded-md text-white lg:w-44 w-full my-6">Learn More</button>
+              <button className="p-4 bg-[#011627] lg:text-base text-sm rounded-md text-white lg:w-44 w-full my-6">Expertise</button>
             </Link>
           </div>
         </div>

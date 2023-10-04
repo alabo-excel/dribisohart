@@ -4,14 +4,6 @@ import HeaderNav from "@/components/HeaderNav";
 import FooterNav from '@/components/FooterNav';
 
 const FrontLayout = ({ children }) => {
-  const [position, setPosition] = useState(0)
-  const handleScroll = () => {
-    setPosition(window.scrollY)
-  };
-
-  useEffect(() => {
-    handleScroll()
-  })
 
   return (
     <Fragment>
@@ -29,7 +21,7 @@ const FrontLayout = ({ children }) => {
         <meta name="twitter:image" content="./images/IMGL9344.jpg" />
 
       </Head>
-      <HeaderNav position={position} />
+      <HeaderNav />
       {children}
       <FooterNav />
     </Fragment>
