@@ -22,7 +22,7 @@ export default function Home() {
             </div>
           </Carousel>
           <div className='absolute top-0  opacity-50 w-full h-full bg-[#011627]'></div>
-          <div className='absolute top-60 lg:left-32  left-5 right-5 x-10 text-white'>
+          <div className='absolute top-72 lg:left-32  left-5 right-5 x-10 text-white'>
             <div className="lg:w-[40%] lg:order-first order-last lg:my-auto my-10">
               <h1 className="lg:text-5xl text-3xl font-black leading-tight">Dr. Ibiso <br /> Darlington Hart</h1>
               <p className="my-3 lg:text-base text-sm">(ICEN, FCIFCN, FIMS, CMGR, FCBI, CFP)</p>

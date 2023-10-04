@@ -5,11 +5,11 @@ const About = () => {
   return (
     <FrontLayout>
       <main className='lg:mx-32 mx-6'>
-        <p className='lg:w-[60%] mx-auto lg:text-lg text-sm text-center my-20'>
+        {/* <p className='lg:w-[60%] mx-auto lg:text-lg text-sm text-center my-20'>
           Dr Ibiso Darlington Hart (CFP-USA, FCBI-dip.MIS, FIMS-UK, Cmgr, FCIFCN, ICEN, CIBN) is a phenomenal Business Development Strategist, Leadership Professional and a Life Coach spanning over two decades of experience, with a PhD in Strategic Management and Leadership and having gained extensive experience in various sectors ranging from teaching/coaching to 14 years of banking career, oil and gas servicing and Aviation, (private jet charter services).
 
           In her diverse professional journey, Dr Ibiso has consistently delivered exceptional results, driving operational excellence, strategic growth, and fostering a culture of innovation in organisations.
-        </p>
+        </p> */}
 
         <div className='lg:flex my-8  lg:text-base text-sm justify-between'>
           <img className='lg:w-1/2' src="./images/IMGL9344.jpg" alt="" />
