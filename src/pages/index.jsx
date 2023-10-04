@@ -9,37 +9,39 @@ export default function Home() {
   return (
     <FrontLayout>
       <main>
-        <div className='relative'>
+        <div className=''>
           <Carousel autoplay>
-            <div>
+            <div className='relative'>
               <img src="./images/IMGL9381.jpg" className='h-[100vh] w-full object-cover' alt="" />
+              <div className='absolute top-0  opacity-50 w-full h-full bg-[#011627]'></div>
+              <div className='absolute bottom-10 lg:left-32 left-5 right-5 z-20 text-white'>
+                <div className="lg:w-[40%] z-20 lg:order-first order-last lg:my-auto my-10">
+                  <h1 className="lg:text-5xl text-3xl font-black leading-tight">Dr. Ibiso <br /> Darlington Hart</h1>
+                  <p className="my-3 lg:text-base text-sm">(CFP-USA, FCBI-dip.MIS, FIMS-UK, Cmgr, FCIFCN, ICEN, CIBN)</p>
+                  <p className="my-5 lg:text-base text-sm">I am a natural-born leader who inspires and motivates those around me. Through her actions and words, I instil a sense of purpose and direction, empowering individuals to strive for their best.</p>
+                </div>
+              </div>
             </div>
-            <div>
-              <img src="./images/img2.png" className='h-[100vh] w-full object-cover' alt="" />
+            <div className='relative'>
+              <img src="./images/IMGL9344.jpg" className='h-[100vh] w-full object-cover' alt="" />
+              <div className='absolute top-0  opacity-50 w-full h-full bg-[#011627]'></div>
+              <div className='absolute top-72 lg:left-32 left-5 right-5 z-20 text-white'>
+                <div className="lg:w-[40%] z-20 lg:order-first order-last lg:my-auto my-10">
+                  {/* <p className="my-5 lg:text-base text-sm">I am a natural-born leader who inspires and motivates those around me. Through her actions and words, I instil a sense of purpose and direction, empowering individuals to strive for their best.</p> */}
+                </div>
+              </div>
             </div>
-            <div>
-              <img src="./images/img1.png" className='h-[100vh] w-full object-cover' alt="" />
+            <div className='relative'>
+              <img src="./images/IMGL9509.jpg" className='h-[100vh] w-full object-cover' alt="" />
+              <div className='absolute top-0  opacity-50 w-full h-full bg-[#011627]'></div>
+              <div className='absolute bottom-10 lg:left-32 left-5 right-5 z-20 text-white'>
+                <div className="lg:w-[40%] z-20 lg:order-first order-last lg:my-auto my-10">
+                  <p className="my-5 lg:text-lg text-sm">My strong managerial acumen allows me to optimize processes, streamline operations, and foster a culture of productivity and accountability. </p>
+                </div>
+              </div>
             </div>
           </Carousel>
-          <div className='absolute top-0  opacity-50 w-full h-full bg-[#011627]'></div>
-          <div className='absolute top-72 lg:left-32  left-5 right-5 x-10 text-white'>
-            <div className="lg:w-[40%] lg:order-first order-last lg:my-auto my-10">
-              <h1 className="lg:text-5xl text-3xl font-black leading-tight">Dr. Ibiso <br /> Darlington Hart</h1>
-              <p className="my-3 lg:text-base text-sm">(ICEN, FCIFCN, FIMS, CMGR, FCBI, CFP)</p>
-              <p className="my-5 lg:text-base text-sm">I am a natural-born leader who inspires and motivates those around me. Through her actions and words, I instil a sense of purpose and direction, empowering individuals to strive for their best.</p>
-            </div>
-          </div>
         </div>
-        {/* <div className="lg:flex mt-4 justify-between lg:h-[90vh] lg:px-32 px-6">
-          <div className="lg:w-1/2 lg:order-last order-first">
-            <img src="./images/hero.png" alt="Hero img" />
-          </div>
-          <div className="lg:w-[40%] lg:order-first order-last lg:my-auto my-10">
-            <h1 className="lg:text-5xl text-3xl font-black leading-tight">Dr. Ibiso <br /> Darlington Hart</h1>
-            <p className="my-3 lg:text-base text-sm">(ICEN, FCIFCN, FIMS, CMGR, FCBI, CFP)</p>
-            <p className="my-5 lg:text-base text-sm">I am a natural-born leader who inspires and motivates those around me. Through her actions and words, I instil a sense of purpose and direction, empowering individuals to strive for their best.</p>
-          </div>
-        </div> */}
 
         <div className="lg:flex bg-[#FBFBFB] justify-between lg:py-20 py-10 lg:px-32 px-6">
           <div className="lg:w-[45%]">
