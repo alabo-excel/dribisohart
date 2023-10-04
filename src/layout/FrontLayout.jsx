@@ -1,9 +1,18 @@
-import React, { Fragment } from 'react';
+import React, { Fragment, useState, useEffect } from 'react';
 import Head from "next/head"
 import HeaderNav from "@/components/HeaderNav";
 import FooterNav from '@/components/FooterNav';
 
 const FrontLayout = ({ children }) => {
+  const [position, setPosition] = useState(0)
+  const handleScroll = () => {
+    setPosition(window.scrollY)
+  };
+
+  useEffect(() => {
+    handleScroll()
+  })
+
   return (
     <Fragment>
       <Head>
@@ -20,7 +29,7 @@ const FrontLayout = ({ children }) => {
         <meta name="twitter:image" content="./images/IMGL9344.jpg" />
 
       </Head>
-      <HeaderNav />
+      <HeaderNav position={position} />
       {children}
       <FooterNav />
     </Fragment>

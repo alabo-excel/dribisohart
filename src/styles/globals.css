@@ -95,3 +95,8 @@ button:focus,
 textarea:focus {
   outline: none;
 }
+
+ul li{
+  list-style-type: circle;
+  margin-bottom: 10px;
+}

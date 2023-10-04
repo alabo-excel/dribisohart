@@ -1,15 +1,36 @@
-import React, { Fragment } from 'react';
+import React, { Fragment, useEffect, useState } from 'react';
 import { Carousel } from 'antd';
 import FrontLayout from '@/layout/FrontLayout';
 import Link from 'next/link';
 
 
 export default function Home() {
+ 
   return (
     <FrontLayout>
-
       <main>
-        <div id="main" className="lg:flex mt-4 justify-between lg:h-[90vh] lg:px-32 px-4">
+        <div className='relative'>
+          <Carousel autoplay>
+            <div>
+              <img src="./images/IMGL9381.jpg" className='h-[100vh] w-full object-cover' alt="" />
+            </div>
+            <div>
+              <img src="./images/img2.png" className='h-[100vh] w-full object-cover' alt="" />
+            </div>
+            <div>
+              <img src="./images/img1.png" className='h-[100vh] w-full object-cover' alt="" />
+            </div>
+          </Carousel>
+          <div className='absolute top-0  opacity-50 w-full h-full bg-[#011627]'></div>
+          <div className='absolute top-60 lg:left-32  left-5 right-5 x-10 text-white'>
+            <div className="lg:w-[40%] lg:order-first order-last lg:my-auto my-10">
+              <h1 className="lg:text-5xl text-3xl font-black leading-tight">Dr. Ibiso <br /> Darlington Hart</h1>
+              <p className="my-3 lg:text-base text-sm">(ICEN, FCIFCN, FIMS, CMGR, FCBI, CFP)</p>
+              <p className="my-5 lg:text-base text-sm">I am a natural-born leader who inspires and motivates those around me. Through her actions and words, I instil a sense of purpose and direction, empowering individuals to strive for their best.</p>
+            </div>
+          </div>
+        </div>
+        {/* <div className="lg:flex mt-4 justify-between lg:h-[90vh] lg:px-32 px-6">
           <div className="lg:w-1/2 lg:order-last order-first">
             <img src="./images/hero.png" alt="Hero img" />
           </div>
@@ -18,24 +39,25 @@ export default function Home() {
             <p className="my-3 lg:text-base text-sm">(ICEN, FCIFCN, FIMS, CMGR, FCBI, CFP)</p>
             <p className="my-5 lg:text-base text-sm">I am a natural-born leader who inspires and motivates those around me. Through her actions and words, I instil a sense of purpose and direction, empowering individuals to strive for their best.</p>
           </div>
-        </div>
-        <div className="lg:flex bg-[#FBFBFB] justify-between lg:py-20 py-10 lg:px-32 px-4">
+        </div> */}
+
+        <div className="lg:flex bg-[#FBFBFB] justify-between lg:py-20 py-10 lg:px-32 px-6">
           <div className="lg:w-[45%]">
             <img src="./images/IMGL9467.jpg" className="lg:h-[85vh] h-[60vh] w-full object-cover rounded-2xl" alt="" />
           </div>
           <div className="lg:w-1/2 my-auto">
             <h1 className="lg:text-3xl text-xl font-bold my-4">About</h1>
-            <p className="mt-4 lg:text-base text-sm">Ibiso Darlington Hart (PhD) is a highly accomplished business development strategist and leadership professional with an impressive career spanning over two decades. Throughout her diverse professional journey, she has gained extensive experience in various industries, including banking and the Aviation Sector.
+            <p className="mt-4 lg:text-base text-sm">
+              Dr Ibiso Darlington Hart (CFP-USA, FCBI-dip.MIS, FIMS-UK, Cmgr, FCIFCN, ICEN, CIBN) is a phenomenal Business Development Strategist, Leadership Professional and a Life Coach spanning over two decades of experience, with a PhD in Strategic Management and Leadership and having gained extensive experience in various sectors ranging from teaching/coaching to 14 years of banking career, oil and gas servicing and Aviation, (private jet charter services).
               <br /><br />
-              Currently serving as the General and Operations Manager of Elin Group Ltd., Ibiso holds a Bachelor of Science (BSc) degree in Secretarial Administration from Rivers State University, Nigeria. She further pursued her education by obtaining a Master of Science (MSc) degree in Human Resources Management from Enugu State University of Technology, Enugu, Nigeria.
-              <br /> <br />
-              Dr. Ibiso got an Executive Masters Certificate (EMC) in Human Resources Management from the East Midlands School of Business & Management in the United Kingdom, inspired by her desire for continual learning and professional development. Her dedication to perfection prompted her to pursue a Doctorate in Strategic Management and Leadership at The University of America, Curaçao.
+              In her diverse professional journey, Dr Ibiso has consistently delivered exceptional results, driving operational excellence, strategic growth, and fostering a culture of innovation in organisations.
             </p>
             <Link href="/about">
-              <button className="p-4 bg-[#011627] lg:text-base text-sm rounded-md text-white lg:w-44 w-full my-4">Learn More</button>
+              <button className="p-4 bg-[#011627] lg:text-base text-sm rounded-md text-white lg:w-44 w-full my-6">Learn More</button>
             </Link>
           </div>
         </div>
+
         <div className='lg:w-1/2 mx-auto my-20 text-center'>
           <div className='mb-10'>
             <h1 className='lg:text-3xl text-xl font-bold'>Testimonials</h1>
@@ -56,8 +78,9 @@ export default function Home() {
             </Carousel>
           </div>
         </div>
+
         <div id='contact' className='bg-[#dddddd] text-center lg:px-32 py-20'>
-          <div className='mb-10 lg:w-[70%] lg:p-0 p-4 mx-auto lg:text-base text-sm'>
+          <div className='mb-10 lg:w-[70%] lg:p-0 p-6 mx-auto lg:text-base text-sm'>
             <div className='mb-10'>
               <h1 className='lg:text-3xl text-xl font-bold'>Contact Me</h1>
               <p className='lg:text-base text-sm lg:w-1/2 w-full mx-auto'>Thank you for visiting my website. I want to hear from you. Please feel free to reach out using any of the channels below.</p>

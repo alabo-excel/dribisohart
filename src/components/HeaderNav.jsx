@@ -1,8 +1,9 @@
 import Link from 'next/link';
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 
-const HeaderNav = () => {
+const HeaderNav = ({ position }) => {
   const [open, setOpen] = useState(false)
+
   const openNav = () => {
     document.getElementById("mySidenav").style.width = "100%";
     setOpen(true)
@@ -11,9 +12,10 @@ const HeaderNav = () => {
     document.getElementById("mySidenav").style.width = "0%";
     setOpen(false)
   }
+
   return (
     <div>
-      <div className='p-4 flex justify-between text-white bg-[#011627] lg:px-32'>
+      <div className={`p-4 w-full fixed top-0 z-10 flex justify-between text-white text-base lg:px-32 ${position > 550 ? 'bg-[#011627]' : ''}`}>
         {/* <h1 className='text-3xl font-bold'>Dr. Ibiso .D. Hart</h1> */}
         <img src="./images/logo.png" className='w-11 h-11' alt="" />
         <div className='lg:flex hidden text-base justify-between w-[30%]'>
