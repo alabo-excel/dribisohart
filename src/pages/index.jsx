@@ -32,7 +32,7 @@ export default function Home() {
               </div>
             </div>
             <div className='relative'>
-              <img src="./images/IMGL9509.jpg" className='h-[100vh] w-full object-cover' alt="" />
+              <img src="./images/img.jpeg" className='h-[100vh] w-full object-cover' alt="" />
               <div className='absolute top-0  opacity-50 w-full h-full bg-[#011627]'></div>
               <div className='absolute bottom-10 lg:left-32 left-5 right-5 z-20 text-white'>
                 <div className="lg:w-[40%] z-20 lg:order-first order-last lg:my-auto my-10">
@@ -55,7 +55,7 @@ export default function Home() {
               In her diverse professional journey, Dr Ibiso has consistently delivered exceptional results, driving operational excellence, strategic growth, and fostering a culture of innovation in organisations.
             </p>
             <Link href="/about">
-              <button className="p-4 bg-[#011627] lg:text-base text-sm rounded-md text-white lg:w-44 w-full my-6">Expertise</button>
+              <button className="p-4 bg-[#011627] lg:text-base text-sm rounded-md text-white lg:w-44 w-full my-6">View Educational Qualification</button>
             </Link>
           </div>
         </div>

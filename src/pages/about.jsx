@@ -1,17 +1,14 @@
 import FrontLayout from '@/layout/FrontLayout';
 import React from 'react';
+import Link from 'next/link';
+import Social from '@/components/Social';
 
 const About = () => {
   return (
     <FrontLayout>
       <main className='lg:mx-32 mx-6'>
-        {/* <p className='lg:w-[60%] mx-auto lg:text-lg text-sm text-center my-20'>
-          Dr Ibiso Darlington Hart (CFP-USA, FCBI-dip.MIS, FIMS-UK, Cmgr, FCIFCN, ICEN, CIBN) is a phenomenal Business Development Strategist, Leadership Professional and a Life Coach spanning over two decades of experience, with a PhD in Strategic Management and Leadership and having gained extensive experience in various sectors ranging from teaching/coaching to 14 years of banking career, oil and gas servicing and Aviation, (private jet charter services).
 
-          In her diverse professional journey, Dr Ibiso has consistently delivered exceptional results, driving operational excellence, strategic growth, and fostering a culture of innovation in organisations.
-        </p> */}
-
-        <div className='lg:flex my-8  lg:text-base text-sm justify-between'>
+        <div className='lg:flex lg:my-40 my-8 lg:text-base text-sm justify-between'>
           <img className='lg:w-1/2' src="./images/IMGL9344.jpg" alt="" />
           <div className='lg:w-[45%] my-auto'>
             <h3 className='font-bold text-xl my-5'>Educational Qualifications</h3>
@@ -21,10 +18,13 @@ const About = () => {
               <li>Executive Masters Certificate (EMC) in Human Resources Management at East Midlands School of Business & Management, UK</li>
               <li>Doctorate degree in Strategic Management and Leadership from The University of America, Curaçao.</li>
             </ul>
+            <Link href="/about#professional">
+              <button className='p-4 bg-[#011627] lg:text-base text-sm rounded-md text-white w-auto w-80 my-6'>View professional Certification</button>
+            </Link>
           </div>
         </div>
 
-        <div className='lg:flex lg:text-base text-sm my-4 justify-between'>
+        <div id='professional' className='lg:flex lg:text-base text-sm lg:py-40 py-8 justify-between'>
           <img className='lg:w-1/2 lg:order-last' src="./images/IMGL9509.jpg" alt="" />
           <div className='lg:w-[45%] lg:order-first'>
             <h3 className='font-bold text-xl my-8'>Professional Certifications</h3>
@@ -40,10 +40,13 @@ const About = () => {
               <li>Advanced Flight Dispatchers Certificate</li>
               <p>She uses pragmatic approaches in working with collegiality teams to achieve and exceed organizational set goals and objectives.</p>
             </ul>
+            <Link href="/about#expertise">
+              <button className='p-4 bg-[#011627] lg:text-base text-sm rounded-md text-white w-auto w-80 my-6'>View Expertise</button>
+            </Link>
           </div>
         </div>
 
-        <div className='lg:flex lg:text-base text-sm my-8 justify-between'>
+        <div id='expertise' className='lg:flex lg:text-base text-sm lg:py-32 py-8 justify-between'>
           <img className='lg:w-1/2 object-cover  ' src="./images/IMGL9401.jpg" alt="" />
           <div className='lg:w-[45%] my-auto'>
             <h3 className='font-bold text-xl my-5'>Expertise</h3>
@@ -119,9 +122,8 @@ const About = () => {
 
         <div className='lg:flex lg:text-base text-sm my-4 justify-between'>
           <img className='lg:w-1/2 lg:order-last' src="./images/IMGL9381.jpg" alt="" />
-
           <div className='lg:w-[45%] lg:order-first'>
-            <h3 className='font-bold text-xl my-8'>Favourite Quotes</h3>
+            {/* <h3 className='font-bold text-xl my-8'>Favourite Quotes</h3> */}
             <p>- "Leadership is not about being in control, but about empowering others to take control."
               <br /> <br />
 
@@ -133,7 +135,7 @@ const About = () => {
               Feel free to reach out to her, ask questions, and share your own experiences.
               <br />
               Let's engage in meaningful conversations, expand our knowledge, and collectively strive for excellence in the realm of strategic thinking and leadership!
-
+              <Social />
             </p>
           </div>
         </div>
@@ -177,6 +179,8 @@ const About = () => {
               <br />
               As an empathetic life coach, her mission is to empower individuals in tackling and overcoming complex life issues while unearthing their true potentials. She will join you to embark on a transformative journey that will enable you to scale through barriers, cultivate deeper self-awareness, and navigate life's intricate challenges with confidence and God’s grace.
             </p>
+            <p>Let's Connect</p>
+            <Social />
           </div>
         </div>
       </main>
