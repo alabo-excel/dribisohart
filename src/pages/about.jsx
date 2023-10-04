@@ -38,7 +38,7 @@ const About = () => {
               <li>Chartered Institute of Bankers of Nigeria (CIBN)</li>
               <li>Member - Nigerian Institute of Management (Chartered)</li>
               <li>Advanced Flight Dispatchers Certificate</li>
-              <p>She uses pragmatic approaches in working with collegiality teams to achieve and exceed organizational set goals and objectives.</p>
+              {/* <p>She uses pragmatic approaches in working with collegiality teams to achieve and exceed organizational set goals and objectives.</p> */}
             </ul>
             <Link href="/about#expertise">
               <button className='p-4 bg-[#011627] lg:text-base text-sm rounded-md text-white w-auto w-80 my-6'>View Expertise</button>
