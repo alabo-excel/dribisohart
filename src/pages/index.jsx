@@ -45,7 +45,7 @@ export default function Home() {
 
         <div className="lg:flex bg-[#FBFBFB] justify-between lg:py-20 py-10 lg:px-32 px-6">
           <div className="lg:w-[45%]">
-            <img src="./images/IMGL9467.jpg" className="lg:h-[85vh] h-[60vh] w-full object-cover rounded-2xl" alt="" />
+            <img src="./images/IMGL9466.jpg" className="lg:h-[85vh] h-[60vh] w-full object-cover rounded-2xl" alt="" />
           </div>
           <div className="lg:w-1/2 my-auto">
             <h1 className="lg:text-3xl text-xl font-bold my-4">About</h1>
@@ -84,7 +84,7 @@ export default function Home() {
         <div id='contact' className='bg-[#dddddd] text-center lg:px-32 py-20'>
           <div className='mb-10 lg:w-[70%] lg:p-0 p-6 mx-auto lg:text-base text-sm'>
             <div className='mb-10'>
-              <h1 className='lg:text-3xl text-xl font-bold'>Contact Me</h1>
+              <h1 className='lg:text-3xl text-xl font-bold'>Let's Connect</h1>
               <p className='lg:text-base text-sm lg:w-1/2 w-full mx-auto'>Thank you for visiting my website. I want to hear from you. Please feel free to reach out using any of the channels below.</p>
             </div>
 

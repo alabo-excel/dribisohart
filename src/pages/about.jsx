@@ -8,7 +8,7 @@ const About = () => {
     <FrontLayout>
       <main className='lg:mx-32 mx-6'>
 
-        <div className='lg:flex lg:my-40 my-8 lg:text-base text-sm justify-between'>
+        <div className='lg:flex lg:my-40 my-32 lg:text-base text-sm justify-between'>
           <img className='lg:w-1/2' src="./images/img.jpeg" alt="" />
           <div className='lg:w-[45%] my-auto'>
             <h3 className='font-bold text-xl my-5'>Educational Qualifications</h3>
@@ -19,7 +19,7 @@ const About = () => {
               <li>Doctorate degree in Strategic Management and Leadership from The University of America, Curaçao.</li>
             </ul>
             <Link href="/about#professional">
-              <button className='p-4 bg-[#011627] lg:text-base text-sm rounded-md text-white w-auto w-80 my-6'>View professional Certification</button>
+              <button className='p-4 bg-[#011627] lg:text-base text-sm rounded-md text-white w-auto my-6'>View professional Certification</button>
             </Link>
           </div>
         </div>
@@ -38,10 +38,10 @@ const About = () => {
               <li>Chartered Institute of Bankers of Nigeria (CIBN)</li>
               <li>Member - Nigerian Institute of Management (Chartered)</li>
               <li>Advanced Flight Dispatchers Certificate</li>
-              {/* <p>She uses pragmatic approaches in working with collegiality teams to achieve and exceed organizational set goals and objectives.</p> */}
+              <p>- "Leadership is not about being in control, but about empowering others to take control."</p>
             </ul>
             <Link href="/about#expertise">
-              <button className='p-4 bg-[#011627] lg:text-base text-sm rounded-md text-white w-auto w-80 my-6'>View Expertise</button>
+              <button className='p-4 bg-[#011627] lg:text-base text-sm rounded-md text-white w-auto my-6'>View Expertise</button>
             </Link>
           </div>
         </div>
@@ -110,21 +110,23 @@ const About = () => {
               <br /><br />
 
 
-              In the dynamic and fast-paced competitive business environ, organizations require a leader who possess a unique blend of strategic acumen, good leadership skill, and industry expertise, Dr Ibiso possess a track record of delivering exceptional results, also poised to lead organizations towards sustainable growth and success.
 
-              <br />
+              {/* <br />
               <br />
 
-              Her favourite pastimes are cooking, hospitality, and photography
+              Her favourite pastimes are cooking, hospitality, and photography */}
             </p>
           </div>
         </div>
 
         <div className='lg:flex lg:text-base text-sm my-4 justify-between'>
-          <img className='lg:w-1/2 lg:order-last' src="./images/IMGL9381.jpg" alt="" />
+          <img className='lg:w-1/2 h-[80vh] object-cover lg:order-last' src="./images/IMGL9467.jpg" alt="" />
           <div className='lg:w-[45%] lg:order-first'>
             {/* <h3 className='font-bold text-xl my-8'>Favourite Quotes</h3> */}
-            <p>- "Leadership is not about being in control, but about empowering others to take control."
+            <p>
+              In the dynamic and fast-paced competitive business environ, organizations require a leader who possess a unique blend of strategic acumen, good leadership skill, and industry expertise, Dr Ibiso possess a track record of delivering exceptional results, also poised to lead organizations towards sustainable growth and success.
+              <br /><br />
+              Her favourite pastimes are cooking, hospitality, and photography
               <br /> <br />
 
               - "Success is not measured by how high you climb, but by how many people you bring along with you."
@@ -137,11 +139,14 @@ const About = () => {
               Let's engage in meaningful conversations, expand our knowledge, and collectively strive for excellence in the realm of strategic thinking and leadership!
               <Social />
             </p>
+            <Link href="/about#coach">
+              <button className='p-4 bg-[#011627] lg:text-base text-sm rounded-md text-white w-auto my-6'>Life Coach</button>
+            </Link>
           </div>
         </div>
 
-        <div className='lg:flex lg:text-base text-sm my-8 justify-between'>
-          <img className='lg:w-1/2 object-cover' src="./images/IMGL9475.jpg" alt="" />
+        <div id='coach' className='lg:flex lg:text-base text-sm lg:py-40 py-8 justify-between'>
+          <img className='lg:w-1/2 object-cover' src="./images/IMGL9497.jpg" alt="" />
           <div className='lg:w-[45%] my-auto'>
             <h3 className='font-bold text-xl my-4'>Life Coach</h3>
             <p>
