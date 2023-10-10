@@ -109,7 +109,9 @@ const About = () => {
               - Proven track record in negotiating and managing contracts, joint ventures, and other strategic alliances.
               <br /><br />
 
-
+              <Link href="/about#coach">
+                <button className='p-4 bg-[#011627] lg:text-base text-sm rounded-md text-white w-auto my-6'>Life Coach</button>
+              </Link>
 
               {/* <br />
               <br />
@@ -119,10 +121,9 @@ const About = () => {
           </div>
         </div>
 
-        <div className='lg:flex lg:text-base text-sm my-4 justify-between'>
+        {/* <div className='lg:flex lg:text-base text-sm my-4 justify-between'>
           <img className='lg:w-1/2 h-[80vh] object-cover lg:order-last' src="./images/IMGL9467.jpg" alt="" />
           <div className='lg:w-[45%] lg:order-first'>
-            {/* <h3 className='font-bold text-xl my-8'>Favourite Quotes</h3> */}
             <p>
               In the dynamic and fast-paced competitive business environ, organizations require a leader who possess a unique blend of strategic acumen, good leadership skill, and industry expertise, Dr Ibiso possess a track record of delivering exceptional results, also poised to lead organizations towards sustainable growth and success.
               <br /><br />
@@ -143,7 +144,7 @@ const About = () => {
               <button className='p-4 bg-[#011627] lg:text-base text-sm rounded-md text-white w-auto my-6'>Life Coach</button>
             </Link>
           </div>
-        </div>
+        </div> */}
 
         <div id='coach' className='lg:flex lg:text-base text-sm lg:py-40 py-8 justify-between'>
           <img className='lg:w-1/2 object-cover' src="./images/IMGL9497.jpg" alt="" />
@@ -184,7 +185,9 @@ const About = () => {
               <br />
               As an empathetic life coach, her mission is to empower individuals in tackling and overcoming complex life issues while unearthing their true potentials. She will join you to embark on a transformative journey that will enable you to scale through barriers, cultivate deeper self-awareness, and navigate life's intricate challenges with confidence and God’s grace.
             </p>
+            <br /> 
             <p>Let's Connect</p>
+            <br />
             <Social />
           </div>
         </div>
