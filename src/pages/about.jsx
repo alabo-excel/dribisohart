@@ -9,7 +9,7 @@ const About = () => {
       <main className='lg:mx-32 mx-6'>
 
         <div className='lg:flex lg:my-40 my-32 lg:text-base text-sm justify-between'>
-          <img className='lg:w-1/2' src="./images/img.jpeg" alt="" />
+          <img className='lg:w-1/2 lg:h-[80vh] object-cover' src="./images/image.png" alt="" />
           <div className='lg:w-[45%] my-auto'>
             <h3 className='font-bold text-xl my-5'>Educational Qualifications</h3>
             <ul>
@@ -38,7 +38,7 @@ const About = () => {
               <li>Chartered Institute of Bankers of Nigeria (CIBN)</li>
               <li>Member - Nigerian Institute of Management (Chartered)</li>
               <li>Advanced Flight Dispatchers Certificate</li>
-              <p>- "Leadership is not about being in control, but about empowering others to take control."</p>
+              {/* <p>- "Leadership is not about being in control, but about empowering others to take control."</p> */}
             </ul>
             <Link href="/about#expertise">
               <button className='p-4 bg-[#011627] lg:text-base text-sm rounded-md text-white w-auto my-6'>View Expertise</button>
@@ -51,13 +51,14 @@ const About = () => {
           <div className='lg:w-[45%] my-auto'>
             <h3 className='font-bold text-xl my-5'>Expertise</h3>
             <p>
-              Dr Ibiso Hart is a passionate top-tier Business Development Strategist/Manager, currently contributing her quota as the General Manager in a Nigerian based leading conglomerate.
+              Dr Ibiso Hart is a passionate top-tier Business Development Strategist/Manager, currently contributing her quota as the General Manager in a leading conglomerate.
 
               <br /> <br />
 
               She possess a wealth of knowledge and skills that can benefit organizations,
-              <br /> <br />
-              taking into consideration that, only the most capable and visionary leaders can navigate the complexities of this ever-evolving business environments. Having developed expertise in a range of strategic management and leadership areas, which include but are not limited to:
+              taking into consideration that, only the most capable and visionary leaders can navigate the complexities of this ever-evolving business environments. 
+              <br />
+              Having developed expertise in a range of strategic management and leadership areas, which include but are not limited to:
               <br />
               <br />
               <b>Strategic Management:</b>
@@ -110,7 +111,7 @@ const About = () => {
               <br /><br />
 
               <Link href="/about#coach">
-                <button className='p-4 bg-[#011627] lg:text-base text-sm rounded-md text-white w-auto my-6'>Life Coach</button>
+                <button className='p-4 bg-[#011627] lg:text-base text-sm rounded-md text-white w-auto my-6'>Career and Life Coach</button>
               </Link>
 
               {/* <br />
@@ -149,14 +150,14 @@ const About = () => {
         <div id='coach' className='lg:flex lg:text-base text-sm lg:py-40 py-8 justify-between'>
           <img className='lg:w-1/2 object-cover' src="./images/IMGL9497.jpg" alt="" />
           <div className='lg:w-[45%] my-auto'>
-            <h3 className='font-bold text-xl my-4'>Life Coach</h3>
+            <h3 className='font-bold text-xl my-4'>Career and Life Coach</h3>
             <p>
               With over 20 years of expertise as a life coach, Dr Ibiso Darlington Hart has been committed to guiding individuals on their path to conquering complex life issues.
               <br />
               Together, you will unravel the depth of your potentials, enabling you to navigate life's most intricate challenges CONFIDENTLY. Whether it's career dissatisfaction, relationship struggles, personal development hurdles, widow-hood, addictions, abuse or navigating major life challenges, she is here to empower and support you every step of the way.
 
               <br />
-              With advanced expertise in  Life Coaching, which include but  not limited to:
+              With advanced expertise in Career and Life Coaching, which include but  not limited to:
               <br /><br />
 
               <b>Personal Growth Blueprint:</b>
@@ -181,7 +182,7 @@ const About = () => {
 
               <b>Emotional Well-being and Life Transition of Loved Ones:</b>
               <br />
-              Life's transition of loved ones can be both exhilarating and overwhelming. From major relocations, career shifts, or personal tragedies, she is here to provide emotional support, guidance, and practical tools to help you navigate these changes with resilience.
+              Transition of loved ones can be both exhilarating and overwhelming. From major relocations, career shifts, or personal tragedies, she is here to provide emotional support, guidance, and practical tools to help you navigate these changes with resilience.
               <br />
               As an empathetic life coach, her mission is to empower individuals in tackling and overcoming complex life issues while unearthing their true potentials. She will join you to embark on a transformative journey that will enable you to scale through barriers, cultivate deeper self-awareness, and navigate life's intricate challenges with confidence and God’s grace.
             </p>

@@ -14,7 +14,7 @@ export default function Home() {
             <div className='relative'>
               <img src="./images/IMGL9381.jpg" className='h-[100vh] w-full object-cover' alt="" />
               <div className='absolute top-0  opacity-50 w-full h-full bg-[#011627]'></div>
-              <div className='absolute bottom-10 lg:left-32 left-5 right-5 z-20 text-white'>
+              <div className='absolute bottom-20 lg:left-32 left-5 right-5 z-20 text-white'>
                 <div className="lg:w-[40%] z-20 lg:order-first order-last lg:my-auto my-10">
                   <h1 className="lg:text-5xl text-3xl font-black leading-tight">Dr. Ibiso <br /> Darlington Hart</h1>
                   <p className="my-3 lg:text-base text-sm">(CFP-USA, FCBI-dip.MIS, FIMS-UK, Cmgr, FCIFCN, ICEN, CIBN)</p>
@@ -23,23 +23,23 @@ export default function Home() {
               </div>
             </div>
             <div className='relative'>
-              <img src="./images/IMGL9344.jpg" className='h-[100vh] w-full object-cover' alt="" />
+              <img src="./images/IMGL9509.jpg" className='h-[100vh] w-full object-cover' alt="" />
               <div className='absolute top-0  opacity-50 w-full h-full bg-[#011627]'></div>
-              <div className='absolute bottom-10 lg:left-32 left-5 right-5 z-20 text-white'>
+              <div className='absolute bottom-20 lg:left-32 left-5 right-5 z-20 text-white'>
                 <div className="lg:w-[40%] z-20 lg:order-first order-last lg:my-auto my-10">
                   <p className="my-5 lg:text-lg text-sm">My strong managerial acumen allows me to optimize processes, streamline operations, and foster a culture of productivity and accountability. </p>
                 </div>
               </div>
             </div>
-            {/* <div className='relative'>
+            <div className='relative'>
               <img src="./images/img.jpeg" className='h-[100vh] w-full object-cover' alt="" />
               <div className='absolute top-0  opacity-50 w-full h-full bg-[#011627]'></div>
-              <div className='absolute bottom-10 lg:left-32 left-5 right-5 z-20 text-white'>
+              <div className='absolute bottom-20 lg:left-32 left-5 right-5 z-20 text-white'>
                 <div className="lg:w-[40%] z-20 lg:order-first order-last lg:my-auto my-10">
-                  <p className="my-5 lg:text-lg text-sm">My strong managerial acumen allows me to optimize processes, streamline operations, and foster a culture of productivity and accountability. </p>
+                  <p className="my-5 lg:text-lg text-sm">Success is not measured by how high you climb, but by how many people you bring along with you.</p>
                 </div>
               </div>
-            </div> */}
+            </div>
           </Carousel>
         </div>
 
@@ -50,7 +50,7 @@ export default function Home() {
           <div className="lg:w-1/2 my-auto">
             <h1 className="lg:text-3xl text-xl font-bold my-4">About</h1>
             <p className="mt-4 lg:text-base text-sm">
-              Dr Ibiso Darlington Hart (CFP-USA, FCBI-dip.MIS, FIMS-UK, Cmgr, FCIFCN, ICEN, CIBN) is a phenomenal Business Development Strategist, Leadership Professional and a Life Coach spanning over two decades of experience, with a PhD in Strategic Management and Leadership and having gained extensive experience in various sectors ranging from teaching/coaching to 14 years of banking career, oil and gas servicing and Aviation, (private jet charter services).
+              Dr Ibiso Darlington Hart <span className='text-sm'>(CFP-USA, FCBI-dip.MIS, FIMS-UK, Cmgr, FCIFCN, ICEN, CIBN)</span> is a phenomenal Business Development Strategist, Leadership Professional and a Life Coach spanning over two decades of experience, with a PhD in Strategic Management and Leadership and having gained extensive experience in various sectors ranging from teaching/coaching to 14 years of banking career, oil and gas servicing and Aviation, (private jet charter services).
               <br /><br />
               In her diverse professional journey, Dr Ibiso has consistently delivered exceptional results, driving operational excellence, strategic growth, and fostering a culture of innovation in organisations.
             </p>
@@ -63,19 +63,19 @@ export default function Home() {
         <div className='lg:w-1/2 mx-auto my-20 text-center'>
           <div className='mb-10'>
             <h1 className='lg:text-3xl text-xl font-bold'>Testimonials</h1>
-            <p className='lg:text-base text-sm'>Check out what people say about me.</p>
+            <p className='lg:text-base text-center text-sm'>Check out what people say about me.</p>
           </div>
           <div className=' p-6'>
             <Carousel dotPosition="right" autoplay>
               <div className='lg:text-lg text-sm'>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt excepturi quam similique, asperiores esse vitae consectetur et quidem repellat voluptatem quod facere minima dolores beatae ullam omnis voluptatum, consequuntur distinctio.
-                <p className='font-bold mt-4'>Elli Joe</p>
-                <p>Founder Joe Joe</p>
+                <p className='font-bold mt-4 text-center'>Elli Joe</p>
+                <p className='text-center'>Founder Joe Joe</p>
               </div>
               <div className='lg:text-lg text-sm'>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt excepturi quam similique, asperiores esse vitae consectetur et quidem repellat voluptatem quod facere minima dolores beatae ullam omnis voluptatum, consequuntur distinctio.
-                <p className='font-bold mt-4'>Elli John</p>
-                <p>Founder Joe Joe</p>
+                <p className='font-bold mt-4 text-center'>Elli John</p>
+                <p className='text-center'>Founder Joe Joe</p>
               </div>
             </Carousel>
           </div>
@@ -85,7 +85,7 @@ export default function Home() {
           <div className='mb-10 lg:w-[70%] lg:p-0 p-6 mx-auto lg:text-base text-sm'>
             <div className='mb-10'>
               <h1 className='lg:text-3xl text-xl font-bold'>Let's Connect</h1>
-              <p className='lg:text-base text-sm lg:w-1/2 w-full mx-auto'>Thank you for visiting my website. I want to hear from you. Please feel free to reach out using any of the channels below.</p>
+              <p className='lg:text-base text-center text-sm lg:w-1/2 w-full mx-auto'>Thank you for visiting my website. I want to hear from you. Please feel free to reach out using any of the channels below.</p>
             </div>
 
             <div className='my-4'>
@@ -101,6 +101,7 @@ export default function Home() {
               <textarea className='w-full p-3 rounded-md h-40' placeholder='Enter your Message'></textarea>
             </div>
             <button className='bg-[#011627] p-4 text-white rounded-md w-44'>Send</button>
+            {/* dribisohart@gmail.com */}
           </div>
         </div>
       </main>
