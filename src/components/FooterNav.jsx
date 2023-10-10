@@ -19,7 +19,7 @@ const FooterNav = () => {
         <Link href="/#contact"><p className='my-auto'>Contact</p></Link>
       </div>
 
-      <div className='my-10 lg:w-[40%] mx-auto'>
+      <div className='my-10 lg:w-[35%] mx-auto'>
         <p className='text-center text-xs'>Let's Connect</p>
         <Social />
       </div>
