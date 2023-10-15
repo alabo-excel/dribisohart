@@ -72,6 +72,11 @@ const SliderComp = () => {
           <p className='font-bold mt-4 text-center'>Muoghalu Philip.</p>
           {/* <p className='text-center'>Founder Joe Joe</p> */}
         </div>
+        <div className='lg:text-lg text-sm'>
+          Dr Ibiso Darlington Hart is an incredibly talented and passionate individual who consistently goes above and beyond in all of her endeavors. I have had the pleasure of working with Dr Ibiso on multiple career projects, and her dedication to excellence is truly inspiring.
+          <p className='font-bold mt-4 text-center'>David Ibrahim(Optimistique)</p>
+          <p className='text-center'>CEO Optimistique Digital World</p>
+        </div>
       </Slider>
     </div>
   );
