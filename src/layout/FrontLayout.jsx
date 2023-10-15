@@ -12,13 +12,13 @@ const FrontLayout = ({ children }) => {
         <meta property="og:type" content="website" />
         <meta property="og:title" content="Dr. Ibiso Darlington Hart" />
         <meta property="og:description" content="Ibiso Darlington Hart (PhD) is a highly accomplished business development strategist and leadership professional with an impressive career spanning over two decades. Throughout her diverse professional journey, she has gained extensive experience in various industries, including banking and the Aviation Sector." />
-        <meta property="og:image" content="./images/IMGL9344.jpg" />
+        <meta property="og:image" content="https://res.cloudinary.com/dxrvhgjkp/image/upload/v1697380570/image_o9dun0.png" />
         <meta property="og:url" content="http://www.dribisohart.com/" />
         <meta property="og:site_name" content="Dr Ibiso Darlington Hart" />
 
         <meta name="twitter:title" content="Dr. Ibiso Darlington Hart" />
         <meta name="twitter:description" content="Ibiso Darlington Hart (PhD) is a highly accomplished business development strategist and leadership professional with an impressive career spanning over two decades. Throughout her diverse professional journey, she has gained extensive experience in various industries, including banking and the Aviation Sector." />
-        <meta name="twitter:image" content="./images/IMGL9344.jpg" />
+        <meta name="twitter:image" content="https://res.cloudinary.com/dxrvhgjkp/image/upload/v1697380570/image_o9dun0.png" />
 
       </Head>
       <HeaderNav />
