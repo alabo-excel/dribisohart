@@ -77,6 +77,13 @@ const SliderComp = () => {
           <p className='font-bold mt-4 text-center'>David Ibrahim(Optimistique)</p>
           <p className='text-center'>CEO Optimistique Digital World</p>
         </div>
+        <div className='lg:text-lg text-sm'>
+          Dr Ibiso Hart is an astute leader with an exceptional indepth on the vicissitudes of life. I met her in  Salvation Ministries Church where the onus of Sanctuary leadership rested on her shoulders. Undoubtedly, she's an enigmatic maestro when it pertains to leadership. I saw exceptional collaboration, coordination, hospitality, encouragement on display from her, her aura when you come in contact with her would lighten your mood up and bring back those lost smiles. She had a unique way on advising correctly on all subject matters be it marriage, goal achievement,  self development, health management, relationship management and spiritual development just to mention a few.
+          {/* The past few years have been insightful and impactful as she has given me access to feed from her wealth of knowledge. Reminiscing with smiles when I visited her with my fiance for introduction and advice for a healthy home. She didn't just encourage me, or recite the usual etiquette on a successful marriage, she gave me practical examples and real life scenarios on how third party interference has destroyed homes, how to be a virtuous wife and a blessing to the man(all round support to my husband & to the well being of our children). These words from my amiable heroine Dr Ibiso,  has been my bedrock and benchmark these past few years in marriage. */}
+          {/* Seeing the startup of her website, I would encourage all to visit, be under her tutelage, take advantage of the opportunities that she shares which will boost the learner's career growth. In addition, Dr Ibiso has worked with crossfunctional teams during her days in the banking sector and currently the aviation industry. This wealth of experience has birthed multi faceted solution which is essential for every business or career person to a part off. */}
+          <p className='font-bold mt-4 text-center'>From Peace Kelechi.</p>
+          {/* <p className='text-center'>CEO Optimistique Digital World</p> */}
+        </div>
       </Slider>
     </div>
   );

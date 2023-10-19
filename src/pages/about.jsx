@@ -56,7 +56,7 @@ const About = () => {
               <br /> <br />
 
               She possess a wealth of knowledge and skills that can benefit organizations,
-              taking into consideration that, only the most capable and visionary leaders can navigate the complexities of this ever-evolving business environments. 
+              taking into consideration that, only the most capable and visionary leaders can navigate the complexities of this ever-evolving business environments.
               <br />
               Having developed expertise in a range of strategic management and leadership areas, which include but are not limited to:
               <br />
@@ -109,7 +109,14 @@ const About = () => {
 
               - Proven track record in negotiating and managing contracts, joint ventures, and other strategic alliances.
               <br /><br />
+              Dr Ibiso would love to connect with like-minded individuals, professionals, and organizations who are passionate about integrating the latest trends in strategic management and leadership styles.
+              <br />
 
+              Feel free to reach out to her, ask questions, and also share your own experiences and concerns.
+              <br />
+
+              Let's engage in meaningful conversations, expand our knowledge, and collectively strive for excellence in the realm of strategic thinking and leadership!
+              <Social />
               <Link href="/about#coach">
                 <button className='p-4 bg-[#011627] lg:text-base text-sm rounded-md text-white w-auto my-6'>Career and Life Coach</button>
               </Link>
@@ -186,8 +193,19 @@ const About = () => {
               <br />
               As an empathetic life coach, her mission is to empower individuals in tackling and overcoming complex life issues while unearthing their true potentials. She will join you to embark on a transformative journey that will enable you to scale through barriers, cultivate deeper self-awareness, and navigate life's intricate challenges with confidence and God’s grace.
             </p>
-            <br /> 
-            <p>Let's Connect</p>
+            <br />
+            <p>Let's Connect If you are:</p>
+           
+            <ul>
+              <li>Seeking life-changing guidance and support</li>
+              <li>You want a career change and desire to climb the corporate ladder, or need guidance on balancing work and personal life</li>
+              <li>You want to unravel the depth of your potential, enabling you to navigate life's most intricate challenges.</li>
+            </ul>
+            I would be honored to be your life snd career coach.
+            Together, we can unlock your true potentials and create a life filled with purpose, joy, and success.
+            Reach out let's   embark on this transformative journey together.
+            <br />
+            Dr Ibiso Hart
             <br />
             <Social />
           </div>
