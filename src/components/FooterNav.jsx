@@ -20,7 +20,7 @@ const FooterNav = () => {
       </div>
 
       <div className='my-10 lg:w-[35%] mx-auto'>
-        <p className='text-center text-xs'>Let's Connect</p>
+        <p className='text-center text-xs my-4'>Let's Connect</p>
         <Social />
       </div>
       <div className='text-center mt-8 text-white '>Copyright © {year} Dr. Ibiso D Hart. All Rights Reserved.</div>

@@ -157,7 +157,7 @@ const About = () => {
         <div id='coach' className='lg:flex lg:text-base text-sm lg:py-40 py-8 justify-between'>
           <img className='lg:w-1/2 object-cover' src="./images/IMGL9497.jpg" alt="" />
           <div className='lg:w-[45%] my-auto'>
-            <h3 className='font-bold text-xl my-4'>Career and Life Coach</h3>
+            <h3 className='font-bold text-xl mb-4'>Career and Life Coach</h3>
             <p>
               With over 20 years of expertise as a life coach, Dr Ibiso Darlington Hart has been committed to guiding individuals on their path to conquering complex life issues.
               <br />
@@ -195,14 +195,15 @@ const About = () => {
             </p>
             <br />
             <p>Let's Connect If you are:</p>
-           
+
             <ul>
               <li>Seeking life-changing guidance and support</li>
               <li>You want a career change and desire to climb the corporate ladder, or need guidance on balancing work and personal life</li>
               <li>You want to unravel the depth of your potential, enabling you to navigate life's most intricate challenges.</li>
             </ul>
-            I would be honored to be your life snd career coach.
-            Together, we can unlock your true potentials and create a life filled with purpose, joy, and success.
+            I would be honored to be your life and career coach.
+            <br />
+            Together, we can unlock your true potentials and create a life filled with purpose, joy, and success. <br />
             Reach out let's   embark on this transformative journey together.
             <br />
             Dr Ibiso Hart
