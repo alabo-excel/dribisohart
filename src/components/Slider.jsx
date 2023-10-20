@@ -84,6 +84,12 @@ const SliderComp = () => {
           <p className='font-bold mt-4 text-center'>From Peace Kelechi.</p>
           {/* <p className='text-center'>CEO Optimistique Digital World</p> */}
         </div>
+        <div className='lg:text-lg text-sm'>
+          Dr. Ibiso and I began our friendship through a professional connection, and over the years, it has evolved into a deep and meaningful bond. I state this without missing words: she is a role model and therefore qualifies to be called and have me as a career coach or life coach based on my experience with her. She made a profound impact on my life journey as a professional, a mother, and a wife.
+          I wholeheartedly recommend connecting with her and exploring her website. Her unique skills and genuine dedication to helping others achieve their goals are truly remarkable. I am certain that her website will be a treasure trove of knowledge and guidance that will undoubtedly benefit anyone seeking to excel in their careers and personal lives.
+          <p className='font-bold mt-4 text-center'>Moji Ibeh</p>
+          {/* <p className='text-center'>CEO Optimistique Digital World</p> */}
+        </div>
       </Slider>
     </div>
   );

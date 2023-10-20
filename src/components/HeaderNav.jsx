@@ -15,10 +15,10 @@ const HeaderNav = () => {
 
   return (
     <div>
-      <div className={`p-4 w-full top-0 z-10 flex justify-between bg-[#011627] text-white text-base lg:px-32`}>
+      <div className={`p-4 w-full fixed top-0 z-10 flex justify-between bg-[#011627] text-white text-base lg:px-32`}>
         {/* <h1 className='text-3xl font-bold'>Dr. Ibiso .D. Hart</h1> */}
         <Link href='/'><img src="./images/logo.png" className='w-11 h-11' alt="" /></Link>
-        <div className='lg:flex hidden text-base justify-between w-[40%]'>
+        <div className='lg:flex hidden text-base justify-between w-[45%]'>
           <p className='my-auto'><Link href='/'>Home</Link></p>
           <p className='my-auto'><Link href="/about">Meet Dr. Ibiso Darlington Hart</Link></p>
           <p className='my-auto'>Blog</p>

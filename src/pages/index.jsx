@@ -59,7 +59,7 @@ const Home = () => {
   return (
     <FrontLayout>
       <main>
-        <div className=''>
+        <div className='mt-16'>
           <Carousel autoplay>
             <div className='relative'>
               <img src="./images/IMGL9381.jpg" className='h-[100vh] w-full object-cover' alt="" />

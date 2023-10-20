@@ -114,8 +114,10 @@ const About = () => {
 
               Feel free to reach out to her, ask questions, and also share your own experiences and concerns.
               <br />
-
+              <br />
               Let's engage in meaningful conversations, expand our knowledge, and collectively strive for excellence in the realm of strategic thinking and leadership!
+              <br />
+              <br />
               <Social />
               <Link href="/about#coach">
                 <button className='p-4 bg-[#011627] lg:text-base text-sm rounded-md text-white w-auto my-6'>Career and Life Coach</button>
@@ -206,8 +208,9 @@ const About = () => {
             Together, we can unlock your true potentials and create a life filled with purpose, joy, and success. <br />
             Reach out let's   embark on this transformative journey together.
             <br />
-            Dr Ibiso Hart
             <br />
+            Dr Ibiso Hart
+            <br /> <br />
             <Social />
           </div>
         </div>
