@@ -58,10 +58,22 @@ const About = () => {
               She possess a wealth of knowledge and skills that can benefit organizations,
               taking into consideration that, only the most capable and visionary leaders can navigate the complexities of this ever-evolving business environments.
               <br />
+              <br />
+              <b>OBJECTIVES  :</b>
+              <br /> <br />
+              <ul>
+                <li>My core objective is to restructure organizations to achieve their maximum potentials by providing customized solutions tailored to their specific business needs to enable them to achieve success, sustainability, and business continuity.</li>
+                <li>I am skilled, experienced and specialize in conducting in-depth analyses of organizational structures, operations, and processes to identify areas for improvement and enhancement.</li>
+                <li>Career guidance and counseling</li>
+                <li>A passionate life coach - guiding individuals to embark on transformative journey that will enable them to scale through barriers, cultivate deeper self-awareness and navigate life’s intricate challenges with confidence.</li>
+              </ul>
+              <br />
+              {/*
               Having developed expertise in a range of strategic management and leadership areas, which include but are not limited to:
               <br />
               <br />
-              <b>Strategic Management:</b>
+
+             <b>Strategic Management:</b>
               <br />
               - Developing and implementing sustainable and effective business strategies in alignment with organizational goals.
               <br />
@@ -108,7 +120,8 @@ const About = () => {
               <br />
 
               - Proven track record in negotiating and managing contracts, joint ventures, and other strategic alliances.
-              <br /><br />
+              <br /><br /> */}
+
               Dr Ibiso would love to connect with like-minded individuals, professionals, and organizations who are passionate about integrating the latest trends in strategic management and leadership styles.
               <br />
 
