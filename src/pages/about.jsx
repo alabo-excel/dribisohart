@@ -51,7 +51,7 @@ const About = () => {
           <div className='lg:w-[45%] my-auto'>
             <h3 className='font-bold text-xl my-5'>Expertise</h3>
             <p>
-              Dr Ibiso Hart is a passionate top-tier Business Development Strategist/Manager, currently contributing her quota as the General Manager in a leading conglomerate.
+              Dr Ibiso Hart is a passionate top-tier Business, Restructuring Development Strategist/Manager, currently contributing her quota as the General Manager in a leading conglomerate.
 
               <br /> <br />
 
@@ -59,8 +59,8 @@ const About = () => {
               taking into consideration that, only the most capable and visionary leaders can navigate the complexities of this ever-evolving business environments.
               <br />
               <br />
-              <b>OBJECTIVES  :</b>
-              <br /> <br />
+              {/* <b>OBJECTIVES  :</b>
+              <br /> <br /> */}
               <ul>
                 <li>My core objective is to restructure organizations to achieve their maximum potentials by providing customized solutions tailored to their specific business needs to enable them to achieve success, sustainability, and business continuity.</li>
                 <li>I am skilled, experienced and specialize in conducting in-depth analyses of organizational structures, operations, and processes to identify areas for improvement and enhancement.</li>
