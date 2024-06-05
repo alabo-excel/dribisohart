@@ -21,7 +21,7 @@ const HeaderNav = () => {
         <div className='lg:flex hidden text-base justify-between w-[45%]'>
           <p className='my-auto'><Link href='/'>Home</Link></p>
           <p className='my-auto'><Link href="/about">Meet Dr. Ibiso Darlington Hart</Link></p>
-          <a href="https://dribisohart.blogspot.com/" target="_blank">
+          <a className='my-auto' href="https://dribisohart.blogspot.com/" target="_blank">
              <p className='my-auto'>Blog</p>
           </a>
           <Link href='/#contact'><button className='bg-white rounded-full p-2 w-32 text-[#011627]'>Contact Me</button></Link>
