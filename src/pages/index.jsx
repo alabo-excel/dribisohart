@@ -62,7 +62,7 @@ const Home = () => {
         <div className='mt-16'>
           <Carousel autoplay>
             <div className='relative'>
-              <img src="./images/IMGL9381.jpg" className='h-[100vh] w-full object-cover' alt="" />
+              <img src="./images/new-img-3.jpeg" className='h-[100vh] w-full object-cover' alt="" />
               <div className='absolute top-0  opacity-50 w-full h-full bg-[#011627]'></div>
               <div className='absolute bottom-20 lg:left-32 left-5 right-5 z-20 text-white'>
                 <div className="lg:w-[40%] z-20 lg:order-first order-last lg:my-auto my-10">
@@ -73,7 +73,7 @@ const Home = () => {
               </div>
             </div>
             <div className='relative'>
-              <img src="./images/IMGL9509.jpg" className='h-[100vh] w-full object-cover' alt="" />
+              <img src="./images/new-img-4.jpeg" className='h-[100vh] w-full object-cover' alt="" />
               <div className='absolute top-0  opacity-50 w-full h-full bg-[#011627]'></div>
               <div className='absolute bottom-20 lg:left-32 left-5 right-5 z-20 text-white'>
                 <div className="lg:w-[40%] z-20 lg:order-first order-last lg:my-auto my-10">
@@ -82,7 +82,7 @@ const Home = () => {
               </div>
             </div>
             <div className='relative'>
-              <img src="./images/img.jpeg" className='h-[100vh] w-full object-cover' alt="" />
+              <img src="./images/new-img-1.jpeg" className='h-[100vh] w-full object-cover' alt="" />
               <div className='absolute top-0  opacity-50 w-full h-full bg-[#011627]'></div>
               <div className='absolute bottom-20 lg:left-32 left-5 right-5 z-20 text-white'>
                 <div className="lg:w-[40%] z-20 lg:order-first order-last lg:my-auto my-10">
@@ -95,7 +95,7 @@ const Home = () => {
 
         <div className="lg:flex bg-[#FBFBFB] justify-between lg:py-20 py-10 lg:px-32 px-6">
           <div className="lg:w-[45%]">
-            <img src="./images/IMGL9466.jpg" className="lg:h-[85vh] w-full object-cover rounded-2xl" alt="" />
+            <img src="./images/new-abt-img.jpeg" className="lg:h-[85vh] w-full object-cover rounded-2xl" alt="" />
           </div>
           <div className="lg:w-1/2 my-auto">
             <h1 className="lg:text-3xl text-xl font-bold my-4">About</h1>

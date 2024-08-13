@@ -25,10 +25,14 @@ const About = () => {
         </div>
 
         <div id='professional' className='lg:flex lg:text-base text-sm lg:py-40 py-8 justify-between'>
-          <img className='lg:w-1/2 lg:order-last' src="./images/IMGL9509.jpg" alt="" />
-          <div className='lg:w-[45%] lg:order-first'>
+          <img className='lg:w-1/2 object-cover lg:order-last' src="./images/new-1.jpeg" alt="" />
+          <div className='lg:w-[45%] lg:order-first my-auto'>
             <h3 className='font-bold text-xl my-8'>Professional Certifications</h3>
             <ul>
+              <li>Professional Certified Coach (PCC) -- In view</li>
+              <li>Certified Practitioner (CP) -- in view</li>
+              <li>Senior Certified Professional Coach (SCPC) -- in view</li>
+
               <li>Chartered Finance Professional, (CFP), USA</li>
               <li>Fellow of the Chartered Business Institute, London. (FCBI, dip. MIS)</li>
               <li>Fellow Institute of Management Specialist, UK, (FIMS)</li>
@@ -47,15 +51,15 @@ const About = () => {
         </div>
 
         <div id='expertise' className='lg:flex lg:text-base text-sm lg:py-32 py-8 justify-between'>
-          <img className='lg:w-1/2 object-cover  ' src="./images/IMGL9401.jpg" alt="" />
+          <img className='lg:w-1/2 object-cover  ' src="./images/new-img-2.jpeg" alt="" />
           <div className='lg:w-[45%] my-auto'>
             <h3 className='font-bold text-xl my-5'>Expertise</h3>
             <p>
-              Dr Ibiso Hart is a passionate top-tier Business, Restructuring Development Strategist/Manager, currently contributing her quota as the General Manager in a leading conglomerate.
+              {/* Dr Ibiso Hart is a passionate top-tier Business, Restructuring Development Strategist/Manager, currently contributing her quota as the General Manager in a leading conglomerate.
 
-              <br /> <br />
+              <br /> <br /> */}
 
-              She possess a wealth of knowledge and skills that can benefit organizations,
+              Dr Ibiso Hart possess a wealth of knowledge and skills that can benefit organizations,
               taking into consideration that, only the most capable and visionary leaders can navigate the complexities of this ever-evolving business environments.
               <br />
               <br />
@@ -170,7 +174,7 @@ const About = () => {
         </div> */}
 
         <div id='coach' className='lg:flex lg:text-base text-sm lg:py-40 py-8 justify-between'>
-          <img className='lg:w-1/2 object-cover' src="./images/IMGL9497.jpg" alt="" />
+          <img className='lg:w-1/2 object-cover' src="./images/IMGL9479.jpg" alt="" />
           <div className='lg:w-[45%] my-auto'>
             <h3 className='font-bold text-xl mb-4'>Career and Life Coach</h3>
             <p>
