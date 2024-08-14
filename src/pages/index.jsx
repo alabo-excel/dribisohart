@@ -98,11 +98,14 @@ const Home = () => {
             <img src="./images/new-abt-img.jpeg" className="lg:h-[85vh] w-full object-cover rounded-2xl" alt="" />
           </div>
           <div className="lg:w-1/2 my-auto">
-            <h1 className="lg:text-3xl text-xl font-bold my-4">About</h1>
-            <p className="mt-4 lg:text-base text-sm">
-              Dr Ibiso Darlington Hart <span className='text-sm'>(CFP-USA, FCBI-dip.MIS, FIMS-UK, Cmgr, FCIFCN, ICEN, CIBN)</span> is a phenomenal Business Development Strategist, Leadership Professional and a Career and Life Coach spanning over two decades of experience, with a PhD in Strategic Management and Leadership and having gained extensive experience in various sectors ranging from teaching/coaching to 14 years of banking career, oil and gas servicing and Aviation, (private jet charter services).
-              <br /><br />
-              In her diverse professional journey, Dr Ibiso has consistently delivered exceptional results, driving operational excellence, strategic growth, and fostering a culture of innovation in organisations.
+            <h1 className="lg:text-3xl text-xl font-bold mb-4">About</h1>
+            <p className="lg:text-base text-sm">
+              Dr Ibiso Hart is a visionary Business Development Expert, driven by her own profound journey of self-discovery and transformation, Dr. Hart empowers businesses to thrive and individuals to unlock their full potentials and navigate life's challenges with resilience and adaptability.
+              <br />
+              <b>Proven Expertise: </b>
+              With over two decades of experience and  a PhD in Strategic Management and Leadership, and a diverse background spanning from teaching & coaching, banking, oil and gas, aviation, and catering, Dr. Hart brings a unique blend of expertise to her work. This rich tapestry of experience has instilled in her a deep understanding of the diverse challenges and opportunities faced by individuals across various industries.
+              <br />
+              Dr. Hart's impact is undeniable.  She has consistently delivered exceptional results, driving operational excellence in Small and Medium Enterprises (SMEs), and Large Enterprises (LEs) fostering a culture of innovation in organizations, and promoting a supportive ecosystem for business growth and personal transformation.
             </p>
             <Link href="/about">
               <button className="p-4 bg-[#011627] lg:text-base text-sm rounded-md text-white lg:w-72 w-full my-6">View Educational Qualification</button>
