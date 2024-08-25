@@ -6,10 +6,10 @@ import Social from '@/components/Social';
 const About = () => {
   return (
     <FrontLayout>
-      <main className='lg:mx-32 mx-6'>
+      <main className='lg:mx-20 mx-6'>
 
-        <div className='lg:flex lg:my-40 my-32 lg:text-base text-sm justify-between'>
-          <img className='lg:w-1/2 lg:h-[80vh] object-cover' src="./images/image.png" alt="" />
+        <div className='lg:flex lg:my-40 my-32 lg:text-lg text-sm justify-between'>
+          <img className='lg:w-1/2 lg:h-[80vh] object-cover object-top	' src="./images/image.png" alt="" />
           <div className='lg:w-[45%] my-auto'>
             <h3 className='font-bold text-xl my-5'>Educational Qualifications</h3>
             <ul>
@@ -19,12 +19,12 @@ const About = () => {
               <li>Doctorate degree in Strategic Management and Leadership from The University of America, Curaçao.</li>
             </ul>
             <Link href="/about#professional">
-              <button className='p-4 bg-[#011627] lg:text-base text-sm rounded-md text-white w-auto my-6'>View professional Certification</button>
+              <button className='p-4 bg-[#011627] lg:text-lg text-sm rounded-md text-white w-full my-6'>View professional Certification</button>
             </Link>
           </div>
         </div>
 
-        <div id='professional' className='lg:flex lg:text-base text-sm lg:py-40 py-8 justify-between'>
+        <div id='professional' className='lg:flex lg:text-lg text-sm lg:py-40 py-8 justify-between'>
           <img className='lg:w-1/2 object-cover lg:order-last' src="./images/new-1.jpeg" alt="" />
           <div className='lg:w-[45%] lg:order-first my-auto'>
             <h3 className='font-bold text-xl my-8'>Professional Certifications</h3>
@@ -45,13 +45,13 @@ const About = () => {
               {/* <p>- "Leadership is not about being in control, but about empowering others to take control."</p> */}
             </ul>
             <Link href="/about#expertise">
-              <button className='p-4 bg-[#011627] lg:text-base text-sm rounded-md text-white w-auto my-6'>View Expertise</button>
+              <button className='p-4 bg-[#011627] lg:text-lg text-sm rounded-md text-white w-full my-6'>View Expertise</button>
             </Link>
           </div>
         </div>
 
-        <div id='expertise' className='lg:flex lg:text-base text-sm lg:py-32 py-8 justify-between'>
-          <img className='lg:w-1/2 object-cover  ' src="./images/new-img-2.jpeg" alt="" />
+        <div id='expertise' className='lg:flex lg:text-lg text-sm lg:py-32 py-8 justify-between'>
+          <img className='lg:w-1/2 object-cover  ' src="./images/IMG-20231217-WA0030.jpg" alt="" />
           <div className='lg:w-[45%] my-auto'>
             <h3 className='font-bold text-xl my-5'>Expertise</h3>
             <p>
@@ -137,7 +137,7 @@ const About = () => {
               <br />
               <Social />
               <Link href="/about#coach">
-                <button className='p-4 bg-[#011627] lg:text-base text-sm rounded-md text-white w-auto my-6'>Career and Life Coach</button>
+                <button className='p-4 bg-[#011627] lg:text-lg text-sm rounded-md text-white w-full my-6'>Career and Life Coach</button>
               </Link>
 
               {/* <br />
@@ -148,7 +148,7 @@ const About = () => {
           </div>
         </div>
 
-        {/* <div className='lg:flex lg:text-base text-sm my-4 justify-between'>
+        {/* <div className='lg:flex lg:text-lg text-sm my-4 justify-between'>
           <img className='lg:w-1/2 h-[80vh] object-cover lg:order-last' src="./images/IMGL9467.jpg" alt="" />
           <div className='lg:w-[45%] lg:order-first'>
             <p>
@@ -168,12 +168,12 @@ const About = () => {
               <Social />
             </p>
             <Link href="/about#coach">
-              <button className='p-4 bg-[#011627] lg:text-base text-sm rounded-md text-white w-auto my-6'>Life Coach</button>
+              <button className='p-4 bg-[#011627] lg:text-lg text-sm rounded-md text-white w-auto my-6'>Life Coach</button>
             </Link>
           </div>
         </div> */}
 
-        <div id='coach' className='lg:flex lg:text-base text-sm lg:py-40 py-8 justify-between'>
+        <div id='coach' className='lg:flex lg:text-lg text-sm lg:py-40 py-8 justify-between'>
           <img className='lg:w-1/2 object-cover' src="./images/IMGL9479.jpg" alt="" />
           <div className='lg:w-[45%] my-auto'>
             <h3 className='font-bold text-xl mb-4'>Career and Life Coach</h3>

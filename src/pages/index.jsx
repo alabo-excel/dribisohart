@@ -59,21 +59,21 @@ const Home = () => {
   return (
     <FrontLayout>
       <main>
-        <div className='mt-16'>
-          <Carousel autoplay>
+        <div className='mt-18'>
+          <Carousel>
             <div className='relative'>
-              <img src="./images/new-img-3.jpeg" className='h-[100vh] w-full object-cover' alt="" />
+              <img src="./images/IMGL9381.jpg" className='h-[100vh] lg:w-[90%] mx-auto object-cover object-top	' alt="" />
               <div className='absolute top-0  opacity-50 w-full h-full bg-[#011627]'></div>
               <div className='absolute bottom-20 lg:left-32 left-5 right-5 z-20 text-white'>
                 <div className="lg:w-[40%] z-20 lg:order-first order-last lg:my-auto my-10">
                   <h1 className="lg:text-5xl text-3xl font-black leading-tight">Dr. Ibiso <br /> Darlington Hart</h1>
-                  <p className="my-3 lg:text-base text-sm">(CFP-USA, FCBI-dip.MIS, FIMS-UK, Cmgr, FCIFCN, ICEN, CIBN)</p>
-                  <p className="my-5 lg:text-base text-sm">I am a natural-born leader who inspires and motivates those around me. Through my actions and words, I instil a sense of purpose and direction, empowering individuals to strive for their best.</p>
+                  <p className="my-3 lg:text-lg text-sm">(CFP-USA, FCBI-dip.MIS, FIMS-UK, Cmgr, FCIFCN, ICEN, CIBN)</p>
+                  <p className="my-5 lg:text-lg text-sm">I am a natural-born leader who inspires and motivates those around me. Through my actions and words, I instil a sense of purpose and direction, empowering individuals to strive for their best.</p>
                 </div>
               </div>
             </div>
-            <div className='relative'>
-              <img src="./images/new-img-4.jpeg" className='h-[100vh] w-full object-cover' alt="" />
+            {/* <div className='relative'>
+              <img src="./images/new-img-4.jpeg" className='h-[100vh] lg:w-[90%] mx-auto object-top	 object-cover' alt="" />
               <div className='absolute top-0  opacity-50 w-full h-full bg-[#011627]'></div>
               <div className='absolute bottom-20 lg:left-32 left-5 right-5 z-20 text-white'>
                 <div className="lg:w-[40%] z-20 lg:order-first order-last lg:my-auto my-10">
@@ -82,24 +82,24 @@ const Home = () => {
               </div>
             </div>
             <div className='relative'>
-              <img src="./images/new-img-1.jpeg" className='h-[100vh] w-full object-cover' alt="" />
+              <img src="./images/hero-img.png" className='h-[100vh] lg:w-[90%] mx-auto object-top object-cover' alt="" />
               <div className='absolute top-0  opacity-50 w-full h-full bg-[#011627]'></div>
               <div className='absolute bottom-20 lg:left-32 left-5 right-5 z-20 text-white'>
                 <div className="lg:w-[40%] z-20 lg:order-first order-last lg:my-auto my-10">
                   <p className="my-5 lg:text-lg text-sm">Success is not measured by how high you climb, but by how many people you bring along with you.</p>
                 </div>
               </div>
-            </div>
+            </div> */}
           </Carousel>
         </div>
 
-        <div className="lg:flex bg-[#FBFBFB] justify-between lg:py-20 py-10 lg:px-32 px-6">
+        <div className="lg:flex bg-[#FBFBFB] justify-between lg:py-20 py-10 lg:px-20 px-6">
           <div className="lg:w-[45%]">
-            <img src="./images/new-abt-img.jpeg" className="lg:h-[85vh] w-full object-cover rounded-2xl" alt="" />
+            <img src="./images/IMGL9466.jpg" className=" w-full object-cover rounded-2xl" alt="" />
           </div>
           <div className="lg:w-1/2 my-auto">
             <h1 className="lg:text-3xl text-xl font-bold mb-4">About</h1>
-            <p className="lg:text-base text-sm">
+            <p className="lg:text-lg text-sm">
               Dr Ibiso Hart is a visionary Business Development Expert, driven by her own profound journey of self-discovery and transformation, Dr. Hart empowers businesses to thrive and individuals to unlock their full potentials and navigate life's challenges with resilience and adaptability.
               <br />
               <b>Proven Expertise: </b>
@@ -108,15 +108,15 @@ const Home = () => {
               Dr. Hart's impact is undeniable.  She has consistently delivered exceptional results, driving operational excellence in Small and Medium Enterprises (SMEs), and Large Enterprises (LEs) fostering a culture of innovation in organizations, and promoting a supportive ecosystem for business growth and personal transformation.
             </p>
             <Link href="/about">
-              <button className="p-4 bg-[#011627] lg:text-base text-sm rounded-md text-white lg:w-72 w-full my-6">View Educational Qualification</button>
+              <button className="p-4 bg-[#011627] lg:text-lg text-sm rounded-md text-white w-full my-6">View Educational Qualification</button>
             </Link>
           </div>
         </div>
 
-        <div className=' bg-[#dddddd] mx-auto py-20 text-center'>
+        <div className=' bg-[#CDE8FE] mx-auto py-20 text-center'>
           <div className='mb-10'>
             <h1 className='lg:text-3xl text-xl font-bold'>Testimonials</h1>
-            <p className='lg:text-base text-center text-sm'>Check out what people say about me.</p>
+            <p className='lg:text-lg text-center text-sm'>Check out what people say about me.</p>
           </div>
           <div className='lg:w-[60%] mx-auto p-6'>
             <Slider />
@@ -124,25 +124,25 @@ const Home = () => {
         </div>
 
         <div id='contact' className='text-center lg:px-32 py-20'>
-          <div className='mb-10 lg:w-[70%] lg:p-0 p-6 mx-auto lg:text-base text-sm'>
+          <div className='mb-10 lg:w-[70%] lg:p-0 p-6 mx-auto lg:text-lg text-sm'>
             <div className='mb-10'>
               <h1 className='lg:text-3xl text-xl font-bold'>Let's Connect</h1>
-              <p className='lg:text-base text-center text-sm lg:w-1/2 w-full mx-auto'>Thank you for visiting my website. I want to hear from you. Please feel free to reach out using any of the channels below.</p>
+              <p className='lg:text-lg text-center text-sm lg:w-1/2 w-full mx-auto'>Thank you for visiting my website. I want to hear from you. Please feel free to reach out using any of the channels below.</p>
             </div>
 
             <div className='my-4'>
-              <input value={name} onChange={e => setName(e.target.value)} type="text" placeholder='Enter your Name' className='p-3 bg-[#dddddd]  rounded-md w-full' />
+              <input value={name} onChange={e => setName(e.target.value)} type="text" placeholder='Name' className='p-3 border border-[#011627] rounded-md w-full' />
             </div>
             <div className='my-4'>
-              <input value={email} onChange={e => setEmail(e.target.value)} type="text" placeholder='Enter your Email' className='p-3 bg-[#dddddd] rounded-md w-full' />
+              <input value={email} onChange={e => setEmail(e.target.value)} type="text" placeholder='Email' className='p-3 border border-[#011627] rounded-md w-full' />
             </div>
             <div className='my-4'>
-              <input value={subject} onChange={e => setSubject(e.target.value)} type="text" placeholder='Enter the Subject' className='p-3 bg-[#dddddd] rounded-md w-full' />
+              <input value={subject} onChange={e => setSubject(e.target.value)} type="text" placeholder='Subject' className='p-3 border border-[#011627] rounded-md w-full' />
             </div>
             <div className='my-4'>
-              <textarea value={message} onChange={e => setMessage(e.target.value)} className='w-full p-3 rounded-md h-40 bg-[#dddddd]' placeholder='Enter your Message'></textarea>
+              <textarea value={message} onChange={e => setMessage(e.target.value)} className='w-full p-3 rounded-md h-40 border border-[#011627] ' placeholder='Your Message'></textarea>
             </div>
-            <button onClick={() => sendMessage()} className='bg-[#011627] p-4 text-white rounded-md w-44'>{loading ? 'sending...' : 'Send'}</button>
+            <button onClick={() => sendMessage()} className='bg-[#011627] text-xl p-4 text-white rounded-md w-full'>{loading ? 'sending...' : 'Send'}</button>
             {/* dribisohart@gmail.com */}
           </div>
         </div>
