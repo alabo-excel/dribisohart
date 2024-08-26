@@ -65,21 +65,23 @@ const About = () => {
               Dr Hart provides strategic guidance and tailored solutions to propel your business forward:
               <br />
               <br />
-              {/* <b>OBJECTIVES  :</b>
+            </p>
+            {/* <b>OBJECTIVES  :</b>
               <br /> <br /> */}
-              <ul>
-                <li> - Developing business ideas.</li>
-                <li> - Evaluating the feasibility and creating  scalable business plan and models for sustainable growth and profitability.</li>
-                <li> - Creating a comprehensive and compelling funding proposal</li>
-                <li> - Explore alternative financing options</li>
-                <li> - Personal Growth & Transformation for SMEs </li>
-                <li> - Navigates the challenges and risks of SMEs face</li>
-                <li> - Develops strategies for overcoming limited resources and access to funding </li>
-                <li> - Guides on assessing startup capital requirements </li>
-                <li> - <strong>Funding Acquisition:</strong> Craft compelling proposals to secure the capital you need to succeed.</li>
-              </ul>
+            <ul className='!list-disc list-inside	'>
+              <li>Developing business ideas.</li>
+              <li>Evaluating the feasibility and creating  scalable business plan and models for sustainable growth and profitability.</li>
+              <li>Creating a comprehensive and compelling funding proposal</li>
+              <li>Explore alternative financing options</li>
+              <li>Personal Growth & Transformation for SMEs </li>
+              <li>Navigates the challenges and risks of SMEs face</li>
+              <li>Develops strategies for overcoming limited resources and access to funding </li>
+              <li>Guides on assessing startup capital requirements </li>
+            </ul>
+            <p>
               <br />
-
+              <strong>Funding Acquisition:</strong> Craft compelling proposals to secure the capital you need to succeed.
+              <br /> <br />
               <strong>Operational Excellence:</strong> Optimize processes, implement automation, and build high-performing teams.
               <br />
 
@@ -87,7 +89,7 @@ const About = () => {
               <strong>Strategic Market Expansion:</strong> Identify new opportunities, penetrate new markets, and achieve sustainable competitive advantage.
               <br />
               <br />
-              <strong>For Individuals Ready for Personal Transformation</strong> <br />
+              <strong className='uppercase'>For Individuals Ready for Personal Transformation</strong> <br />
               <br />
               Dr. Hart's transformative coaching is a beacon of inspiration, empowering individuals to craft a life of purpose, authenticity, unlock their potentials,  and achieve work-life harmony.
               <br /> <br />
@@ -119,8 +121,9 @@ const About = () => {
           <img className='lg:w-1/2 object-cover' src="./images/IMGL9479.jpg" alt="" />
           <div className='lg:w-[45%]  h-[150vh] pr-6 overflow-y-scroll my-auto'>
             <h3 className='font-bold text-xl mb-4'>Career and Life Coach</h3>
+
             <p>
-              <b>            For Individuals Ready for Personal Transformation                </b>
+              <b>For Individuals Ready for Personal Transformation</b>
               <br /> <br />
               Dr. Hart's transformative coaching is a beacon of inspiration, empowering individuals to craft a life of purpose, authenticity, unlock their potentials,  and achieve work-life harmony.
               Results-Oriented Approach: Her focus on actionable strategies and measurable outcomes ensures tangible progress and lasting impact.
@@ -149,19 +152,19 @@ const About = () => {
             <br />
             <p>Let's Connect If you are:</p>
 
-            <ul>
-              <li> - Seeking life-changing guidance and support</li>
-              <li> - You want a career change and desire to climb the corporate ladder, or need guidance on balancing work and personal life</li>
-              <li> - You want to unravel the depth of your potential, enabling you to navigate life's most intricate challenges.</li>
+            <ul className='!list-disc list-inside	'>
+              <li>Seeking life-changing guidance and support</li>
+              <li>You want a career change and desire to climb the corporate ladder, or need guidance on balancing work and personal life</li>
+              <li>You want to unravel the depth of your potential, enabling you to navigate life's most intricate challenges.</li>
             </ul>
-            I would be honored to be your life and career coach.
-            <br />
-            Together, we can unlock your true potentials and create a life filled with purpose, joy, and success. <br />
-            Reach out let's   embark on this transformative journey together.
-            <br />
-            <br />
-            Dr Ibiso Hart
-            <br /> <br />
+            <p>I would be honored to be your life and career coach.
+              <br />
+              Together, we can unlock your true potentials and create a life filled with purpose, joy, and success. <br />
+              Reach out let's   embark on this transformative journey together.
+              <br />
+              <br />
+              Dr Ibiso Hart
+              <br /> <br /></p>
             <Social />
           </div>
         </div>

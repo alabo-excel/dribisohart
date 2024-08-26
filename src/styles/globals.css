@@ -103,6 +103,6 @@ textarea:focus {
 }
 
 ul li{
-  list-style-type: circle;
+  list-style-type: disc !important;
   margin-bottom: 10px;
 }
