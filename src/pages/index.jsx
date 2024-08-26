@@ -64,11 +64,11 @@ const Home = () => {
             <div className='relative'>
               <img src="./images/IMGL9381.jpg" className='h-[100vh] lg:w-[90%] mx-auto object-cover object-top	' alt="" />
               <div className='absolute top-0  opacity-50 w-full h-full bg-[#011627]'></div>
-              <div className='absolute bottom-10 lg:left-32 left-5 right-5 z-20 text-white'>
+              <div className='absolute bottom-10 lg:left-20 left-5 right-5 z-20 text-white'>
                 <div className="lg:w-[40%] z-20 lg:order-first order-last lg:my-auto my-10">
                   <h1 className="lg:text-5xl text-3xl font-black leading-tight">Dr. Ibiso <br /> Darlington Hart</h1>
-                  <p className="my-3 lg:text-lg text-sm">(CFP-USA, FCBI-dip.MIS, FIMS-UK, Cmgr, FCIFCN, ICEN, CIBN)</p>
-                  <p className="my-5 lg:text-lg text-sm">I am a natural-born leader who inspires and motivates those around me. Through my actions and words, I instil a sense of purpose and direction, empowering individuals to strive for their best.</p>
+                  <p className="my-3 lg:text-base text-sm">(CFP-USA, FCBI-dip.MIS, FIMS-UK, Cmgr, FCIFCN, ICEN, CIBN)</p>
+                  <p className="my-5 lg:text-base text-sm">I am a natural-born leader who inspires and motivates those around me. Through my actions and words, I instil a sense of purpose and direction, empowering individuals to strive for their best.</p>
                 </div>
               </div>
             </div>
