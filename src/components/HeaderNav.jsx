@@ -32,7 +32,7 @@ const HeaderNav = () => {
              <p className='my-auto'>Blog</p>
           </a> */}
           <a href="http://lifematicswithdribisohart.com/">
-            <button className='bg-white rounded-full p-2 w-44 text-[#011627]'>Life Matics Blog</button>
+            <button className='bg-white rounded-full p-2 w-44 text-[#011627]'>Lifematics Blog</button>
           </a>
           {/* <Link href='/'></Link> */}
         </div>
@@ -52,7 +52,7 @@ const HeaderNav = () => {
             <p className='my-5'>Blog</p>
           </a> */}
           {/* <Link href='/#contact'></Link> */}
-          <a href="https://lifematicswithdribisohart.com/"><button onClick={() => closeNav()} className='bg-white my-5 rounded-full w-full p-4 text-[#011627]'>Life Matics Blog</button></a>
+          <a href="https://lifematicswithdribisohart.com/"><button onClick={() => closeNav()} className='bg-white my-5 rounded-full w-full p-4 text-[#011627]'>Lifematics Blog</button></a>
         </div>
       </div>
     </div>
