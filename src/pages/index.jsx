@@ -64,7 +64,7 @@ const Home = () => {
             <div className='relative'>
               <img src="./images/IMGL9381.jpg" className='h-[100vh] lg:w-[90%] mx-auto object-cover object-top	' alt="" />
               <div className='absolute top-0  opacity-50 w-full h-full bg-[#011627]'></div>
-              <div className='absolute bottom-20 lg:left-32 left-5 right-5 z-20 text-white'>
+              <div className='absolute bottom-10 lg:left-32 left-5 right-5 z-20 text-white'>
                 <div className="lg:w-[40%] z-20 lg:order-first order-last lg:my-auto my-10">
                   <h1 className="lg:text-5xl text-3xl font-black leading-tight">Dr. Ibiso <br /> Darlington Hart</h1>
                   <p className="my-3 lg:text-lg text-sm">(CFP-USA, FCBI-dip.MIS, FIMS-UK, Cmgr, FCIFCN, ICEN, CIBN)</p>
@@ -101,10 +101,10 @@ const Home = () => {
             <h1 className="lg:text-3xl text-xl font-bold mb-4">About</h1>
             <p className="lg:text-lg text-sm">
               Dr Ibiso Hart is a visionary Business Development Expert, driven by her own profound journey of self-discovery and transformation, Dr. Hart empowers businesses to thrive and individuals to unlock their full potentials and navigate life's challenges with resilience and adaptability.
-              <br />
-              <b>Proven Expertise: </b>
+              <br /> <br />
+              <b>Proven Expertise: </b> <br />
               With over two decades of experience and  a PhD in Strategic Management and Leadership, and a diverse background spanning from teaching & coaching, banking, oil and gas, aviation, and catering, Dr. Hart brings a unique blend of expertise to her work. This rich tapestry of experience has instilled in her a deep understanding of the diverse challenges and opportunities faced by individuals across various industries.
-              <br />
+              <br /> <br />
               Dr. Hart's impact is undeniable.  She has consistently delivered exceptional results, driving operational excellence in Small and Medium Enterprises (SMEs), and Large Enterprises (LEs) fostering a culture of innovation in organizations, and promoting a supportive ecosystem for business growth and personal transformation.
             </p>
             <Link href="/about">
