@@ -52,87 +52,53 @@ const About = () => {
 
         <div id='expertise' className='lg:flex lg:text-lg text-sm lg:py-32 py-8 justify-between'>
           <img className='lg:w-1/2 object-cover  ' src="./images/IMG-20231217-WA0030.jpg" alt="" />
-          <div className='lg:w-[45%] my-auto'>
-            <h3 className='font-bold text-xl my-5'>Expertise</h3>
+          <div className='lg:w-[45%]  h-[150vh] pr-6 overflow-y-scroll'>
+            <h3 className='font-bold text-xl my-5'>Expertise </h3>
             <p>
+              <strong>Businesses Seeking Sustainable Growth</strong>
+              <br />
               {/* Dr Ibiso Hart is a passionate top-tier Business, Restructuring Development Strategist/Manager, currently contributing her quota as the General Manager in a leading conglomerate.
 
               <br /> <br /> */}
 
-              Dr Ibiso Hart possess a wealth of knowledge and skills that can benefit organizations,
-              taking into consideration that, only the most capable and visionary leaders can navigate the complexities of this ever-evolving business environments.
+              Dr Hart provides strategic guidance and tailored solutions to propel your business forward:
               <br />
               <br />
               {/* <b>OBJECTIVES  :</b>
               <br /> <br /> */}
               <ul>
-                <li>My core objective is to restructure organizations to achieve their maximum potentials by providing customized solutions tailored to their specific business needs to enable them to achieve success, sustainability, and business continuity.</li>
-                <li>I am skilled, experienced and specialize in conducting in-depth analyses of organizational structures, operations, and processes to identify areas for improvement and enhancement.</li>
-                <li>Career guidance and counseling</li>
-                <li>A passionate life coach - guiding individuals to embark on transformative journey that will enable them to scale through barriers, cultivate deeper self-awareness and navigate life’s intricate challenges with confidence.</li>
+                <li>Developing business ideas.</li>
+                <li>Evaluating the feasibility and creating  scalable business plan and models for sustainable growth and profitability.</li>
+                <li>Creating a comprehensive and compelling funding proposal</li>
+                <li>Explore alternative financing options</li>
+                <li>Personal Growth & Transformation for SMEs </li>
+                <li>Navigates the challenges and risks of SMEs face</li>
+                <li>Develops strategies for overcoming limited resources and access to funding </li>
+                <li>Guides on assessing startup capital requirements </li>
+                <li>Funding Acquisition: Craft compelling proposals to secure the capital you need to succeed.</li>
               </ul>
               <br />
-              {/*
-              Having developed expertise in a range of strategic management and leadership areas, which include but are not limited to:
-              <br />
-              <br />
 
-             <b>Strategic Management:</b>
-              <br />
-              - Developing and implementing sustainable and effective business strategies in alignment with organizational goals.
-              <br />
+              <strong>Operational Excellence:</strong> Optimize processes, implement automation, and build high-performing teams.
 
-              - Conducting comprehensive market analysis to identify opportunities, anticipate challenges, and adapt strategies appropriately.
-              <br />
 
-              - Balancing short-term objectives with long-term vision of the organisation to ensure business continuity.
               <br />
+              <strong>Strategic Market Expansion:</strong> Identify new opportunities, penetrate new markets, and achieve sustainable competitive advantage.
               <br />
-              <b>Leadership and Team Management:</b>
+              <strong>For Individuals Ready for Personal Transformation</strong>
+              Dr. Hart's transformative coaching is a beacon of inspiration, empowering individuals to craft a life of purpose, authenticity, unlock their potentials,  and achieve work-life harmony.
               <br />
+              <strong>Results-Oriented Approach:</strong> Her focus on actionable strategies and measurable outcomes ensures tangible progress and lasting impact.
 
-              - Inspiring and motivating teams to perform at their best by providing clear direction and fostering a collaborative work environment.
-              <br />
+              <br /><br />
+              Her Lifematics Lifestyle Framework and book series, born from her extensive experience across diverse industries, provides a practical road-map for cultivating a transformative "antifragile mindset." This approach embraces change and uncertainty as opportunities for business growth and personal evolution.
 
-              - Building high-performing teams through effective talent acquisition, training, and development initiatives.
               <br />
+              Are you ready to unlock your full potential, whether in business development or life transformation, contact Dr  Hart today and embark on a journey of extraordinary business and personal growth.
 
-              - Encouraging diversity, inclusion, and empowerment to drive innovation and productivity.
               <br />
               <br />
-
-              <b>Operational Excellence:</b>
-              <br />
-
-              - Enhancing operational efficiency by implementing streamlined processes, performance metrics, and continuous improvement strategies.
-              <br />
-
-              - Expertise in managing large-scale projects, optimizing asset utilization, and implementing cost-effective measures.
-              <br />
-
-              - Ensuring strict adherence to safety protocols, industry regulations, and environmental sustainability practices.
-              <br />
-              <br />
-
-              <b>Stakeholder Engagement:</b>
-              <br />
-
-              - Building strong relationships with clients, suppliers, regulatory bodies, and local communities.
-              <br />
-
-              - Identifying and addressing the evolving needs of stakeholders to enhance satisfaction and drive long-term partnerships.
-              <br />
-
-              - Proven track record in negotiating and managing contracts, joint ventures, and other strategic alliances.
-              <br /><br /> */}
-
-              Dr Ibiso would love to connect with like-minded individuals, professionals, and organizations who are passionate about integrating the latest trends in strategic management and leadership styles.
-              <br />
-
-              Feel free to reach out to her, ask questions, and also share your own experiences and concerns.
-              <br />
-              <br />
-              Let's engage in meaningful conversations, expand our knowledge, and collectively strive for excellence in the realm of strategic thinking and leadership!
+              Let’s connect!
               <br />
               <br />
               <Social />
@@ -140,42 +106,15 @@ const About = () => {
                 <button className='p-4 bg-[#011627] lg:text-lg text-sm rounded-md text-white w-full my-6'>Career and Life Coach</button>
               </Link>
 
-              {/* <br />
-              <br />
-
-              Her favourite pastimes are cooking, hospitality, and photography */}
             </p>
           </div>
         </div>
 
-        {/* <div className='lg:flex lg:text-lg text-sm my-4 justify-between'>
-          <img className='lg:w-1/2 h-[80vh] object-cover lg:order-last' src="./images/IMGL9467.jpg" alt="" />
-          <div className='lg:w-[45%] lg:order-first'>
-            <p>
-              In the dynamic and fast-paced competitive business environ, organizations require a leader who possess a unique blend of strategic acumen, good leadership skill, and industry expertise, Dr Ibiso possess a track record of delivering exceptional results, also poised to lead organizations towards sustainable growth and success.
-              <br /><br />
-              Her favourite pastimes are cooking, hospitality, and photography
-              <br /> <br />
 
-              - "Success is not measured by how high you climb, but by how many people you bring along with you."
-              <br /> <br />
-
-              Dr Ibiso would love to connect with like-minded individuals, professionals, and organizations who are passionate about strategic management and leadership.
-              <br />
-              Feel free to reach out to her, ask questions, and share your own experiences.
-              <br />
-              Let's engage in meaningful conversations, expand our knowledge, and collectively strive for excellence in the realm of strategic thinking and leadership!
-              <Social />
-            </p>
-            <Link href="/about#coach">
-              <button className='p-4 bg-[#011627] lg:text-lg text-sm rounded-md text-white w-auto my-6'>Life Coach</button>
-            </Link>
-          </div>
-        </div> */}
 
         <div id='coach' className='lg:flex lg:text-lg text-sm lg:py-40 py-8 justify-between'>
           <img className='lg:w-1/2 object-cover' src="./images/IMGL9479.jpg" alt="" />
-          <div className='lg:w-[45%] my-auto'>
+          <div className='lg:w-[45%]  h-[150vh] pr-6 overflow-y-scroll my-auto'>
             <h3 className='font-bold text-xl mb-4'>Career and Life Coach</h3>
             <p>
               With over 20 years of expertise as a life coach, Dr Ibiso Darlington Hart has been committed to guiding individuals on their path to conquering complex life issues.

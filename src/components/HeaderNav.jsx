@@ -18,9 +18,11 @@ const HeaderNav = () => {
       <div className={`p-4 w-full fixed top-0 z-10 flex justify-between bg-[#011627] text-white text-lg lg:px-20`}>
         {/* <h1 className='text-3xl font-bold'>Dr. Ibiso .D. Hart</h1> */}
         <Link href='/'><img src="./images/logo.png" className='w-11 h-11' alt="" /></Link>
-        <div className='lg:flex hidden text-lg justify-between w-[50%]'>
+        <div className='lg:flex hidden text-lg justify-between w-[55%]'>
           <p className='my-auto'><Link href='/'>Home</Link></p>
           <p className='my-auto'><Link href="/about">About</Link></p>
+          <p className='my-auto'><Link href="/about#expertise">Expertise</Link></p>
+
           <p className='my-auto'><Link href="/about">Books</Link></p>
           <p className='my-auto'><Link href="/gallery">Media</Link></p>
 
