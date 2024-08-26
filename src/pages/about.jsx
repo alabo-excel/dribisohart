@@ -9,7 +9,7 @@ const About = () => {
       <main className='lg:mx-20 mx-6'>
 
         <div className='lg:flex lg:my-40 my-32 lg:text-lg text-sm justify-between'>
-          <img className='lg:w-1/2 lg:h-[80vh] object-cover object-top	' src="./images/image.png" alt="" />
+          <img className='lg:w-1/2 lg:h-[80vh] object-cover object-top	' src="./images/about.jpeg" alt="" />
           <div className='lg:w-[45%] my-auto'>
             <h3 className='font-bold text-xl my-5'>Educational Qualifications</h3>
             <ul>
@@ -58,16 +58,11 @@ const About = () => {
               <strong>Businesses Seeking Sustainable Growth</strong>
               <br />
               <br />
-              {/* Dr Ibiso Hart is a passionate top-tier Business, Restructuring Development Strategist/Manager, currently contributing her quota as the General Manager in a leading conglomerate.
-
-              <br /> <br /> */}
-
               Dr Hart provides strategic guidance and tailored solutions to propel your business forward:
               <br />
               <br />
             </p>
-            {/* <b>OBJECTIVES  :</b>
-              <br /> <br /> */}
+
             <ul className='!list-disc list-inside	'>
               <li>Developing business ideas.</li>
               <li>Evaluating the feasibility and creating  scalable business plan and models for sustainable growth and profitability.</li>
