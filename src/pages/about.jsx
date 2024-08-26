@@ -57,6 +57,7 @@ const About = () => {
             <p>
               <strong>Businesses Seeking Sustainable Growth</strong>
               <br />
+              <br />
               {/* Dr Ibiso Hart is a passionate top-tier Business, Restructuring Development Strategist/Manager, currently contributing her quota as the General Manager in a leading conglomerate.
 
               <br /> <br /> */}
@@ -67,27 +68,29 @@ const About = () => {
               {/* <b>OBJECTIVES  :</b>
               <br /> <br /> */}
               <ul>
-                <li>Developing business ideas.</li>
-                <li>Evaluating the feasibility and creating  scalable business plan and models for sustainable growth and profitability.</li>
-                <li>Creating a comprehensive and compelling funding proposal</li>
-                <li>Explore alternative financing options</li>
-                <li>Personal Growth & Transformation for SMEs </li>
-                <li>Navigates the challenges and risks of SMEs face</li>
-                <li>Develops strategies for overcoming limited resources and access to funding </li>
-                <li>Guides on assessing startup capital requirements </li>
-                <li>Funding Acquisition: Craft compelling proposals to secure the capital you need to succeed.</li>
+                <li> - Developing business ideas.</li>
+                <li> - Evaluating the feasibility and creating  scalable business plan and models for sustainable growth and profitability.</li>
+                <li> - Creating a comprehensive and compelling funding proposal</li>
+                <li> - Explore alternative financing options</li>
+                <li> - Personal Growth & Transformation for SMEs </li>
+                <li> - Navigates the challenges and risks of SMEs face</li>
+                <li> - Develops strategies for overcoming limited resources and access to funding </li>
+                <li> - Guides on assessing startup capital requirements </li>
+                <li> - <strong>Funding Acquisition:</strong> Craft compelling proposals to secure the capital you need to succeed.</li>
               </ul>
               <br />
 
               <strong>Operational Excellence:</strong> Optimize processes, implement automation, and build high-performing teams.
-
+              <br />
 
               <br />
               <strong>Strategic Market Expansion:</strong> Identify new opportunities, penetrate new markets, and achieve sustainable competitive advantage.
               <br />
-              <strong>For Individuals Ready for Personal Transformation</strong>
-              Dr. Hart's transformative coaching is a beacon of inspiration, empowering individuals to craft a life of purpose, authenticity, unlock their potentials,  and achieve work-life harmony.
               <br />
+              <strong>For Individuals Ready for Personal Transformation</strong> <br />
+              <br />
+              Dr. Hart's transformative coaching is a beacon of inspiration, empowering individuals to craft a life of purpose, authenticity, unlock their potentials,  and achieve work-life harmony.
+              <br /> <br />
               <strong>Results-Oriented Approach:</strong> Her focus on actionable strategies and measurable outcomes ensures tangible progress and lasting impact.
 
               <br /><br />
@@ -117,47 +120,39 @@ const About = () => {
           <div className='lg:w-[45%]  h-[150vh] pr-6 overflow-y-scroll my-auto'>
             <h3 className='font-bold text-xl mb-4'>Career and Life Coach</h3>
             <p>
-              With over 20 years of expertise as a life coach, Dr Ibiso Darlington Hart has been committed to guiding individuals on their path to conquering complex life issues.
-              <br />
-              Together, you will unravel the depth of your potentials, enabling you to navigate life's most intricate challenges CONFIDENTLY. Whether it's career dissatisfaction, relationship struggles, personal development hurdles, widow-hood, addictions, abuse or navigating major life challenges, she is here to empower and support you every step of the way.
-
-              <br />
-              With advanced expertise in Career and Life Coaching, which include but  not limited to:
-              <br /><br />
-
-              <b>Personal Growth Blueprint:</b>
-              <br />
-              Discovering the power within you to navigate complex life issues in an exhilarating journey that begins with a personalized roadmap. Leveraging her extensive knowledge and experience.
-              <br /><br />
-
-              <b>Unpacking Limiting Beliefs:</b>
-              <br />
-              Often, the first step towards personal transformation involves addressing and overcoming limiting beliefs. She possesses an in-depth understanding of the subconscious mind and its influence on daily actions.
-              <br /><br />
-
-              <b>Navigating Career Challenges:</b>
-              <br />
-              Whether you seek a career change, desire to climb the corporate ladder, or need guidance on balancing work and personal life, Dr Ibiso will provide you with the tools and strategies necessary to thrive professionally.
-
-              <br /><br />
-              <b>Relationship Resilience:</b>
-              <br />
-              Complex relationship dynamics can often hinder our personal growth and happiness. As an experienced life coach, she specializes in fostering healthier relationships, whether it's within your family, romantic partnership, or social circles.
+              <b>            For Individuals Ready for Personal Transformation                </b>
+              <br /> <br />
+              Dr. Hart's transformative coaching is a beacon of inspiration, empowering individuals to craft a life of purpose, authenticity, unlock their potentials,  and achieve work-life harmony.
+              Results-Oriented Approach: Her focus on actionable strategies and measurable outcomes ensures tangible progress and lasting impact.
+              <br /> <br />
+              <strong>              Experience Dr Hart’s difference:                </strong>
+              <br /> <br />
+              <strong>Compassionate & Experienced Coach:</strong> A certified life coach providing a supportive and non-judgmental space for you to explore, grow, and transform.
               <br /> <br />
 
-              <b>Emotional Well-being and Life Transition of Loved Ones:</b>
-              <br />
-              Transition of loved ones can be both exhilarating and overwhelming. From major relocations, career shifts, or personal tragedies, she is here to provide emotional support, guidance, and practical tools to help you navigate these changes with resilience.
-              <br />
-              As an empathetic life coach, her mission is to empower individuals in tackling and overcoming complex life issues while unearthing their true potentials. She will join you to embark on a transformative journey that will enable you to scale through barriers, cultivate deeper self-awareness, and navigate life's intricate challenges with confidence and God’s grace.
+              <strong>Proven Coaching Techniques:</strong> She utilizes evidence-based coaching methodologies tailored to your unique needs and goals.
+              <br /> <br />
+
+              <strong>Actionable Strategies and Tools:</strong> Gain practical tools and techniques to overcome challenges, build resilience, and create lasting change.
+              <br /> <br />
+
+              <strong>Empowerment and Accountability:</strong> She empowers you to take ownership of your life and provide ongoing support and accountability to keep you motivated and on track.
+              <br /> <br />
+
+              Are you ready to unlock your full potential and design a life you love? Contact Dr Ibiso Hart today and embark on your journey of personal transformation.
+              <br /> <br />
+
+              <strong>Compassionate Guidance</strong>
+              <br /> <br />
+              Dr. Hart creates a safe and supportive space for exploration, growth, and transformation. Her vision extends beyond individual empowerment. She has built a global community of Lifematics Lifestyle practitioners, mentors, and mentees, creating a supportive ecosystem for personal growth and transformation.
             </p>
             <br />
             <p>Let's Connect If you are:</p>
 
             <ul>
-              <li>Seeking life-changing guidance and support</li>
-              <li>You want a career change and desire to climb the corporate ladder, or need guidance on balancing work and personal life</li>
-              <li>You want to unravel the depth of your potential, enabling you to navigate life's most intricate challenges.</li>
+              <li> - Seeking life-changing guidance and support</li>
+              <li> - You want a career change and desire to climb the corporate ladder, or need guidance on balancing work and personal life</li>
+              <li> - You want to unravel the depth of your potential, enabling you to navigate life's most intricate challenges.</li>
             </ul>
             I would be honored to be your life and career coach.
             <br />
