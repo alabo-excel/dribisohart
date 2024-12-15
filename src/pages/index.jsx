@@ -66,8 +66,10 @@ const Home = () => {
               <div className='absolute top-0  opacity-50 w-full h-full bg-[#011627]'></div>
               <div className='absolute bottom-2 lg:left-20 left-5 right-5 z-20 text-white'>
                 <div className="lg:w-[40%] z-20 lg:order-first order-last">
-                  <h1 className="lg:text-5xl text-3xl font-black leading-tight">Dr. Ibiso <br /> Darlington Hart</h1>
-                  <p className="my-3 lg:text-base text-sm">(CFP-USA, FCBI-dip.MIS, FIMS-UK, Cmgr, FCIFCN, ICEN, CIBN)</p>
+                  <h1 className="lg:text-5xl text-3xl font-black leading-tight">Dr. Ibiso <br /> Darlington Hart</h1> <br /> <br />
+                  <p>Certified Proffessional Coach</p>
+                  <p>Your Partner in Personal Evolution</p>
+                  <p className="my-3 lg:text-base text-sm">CTA- Certified Professional Coach (CTA-CPC), CTA- Senior Certified Professional Coach (CTA-SCPC)</p>
                   <p className="my-5 lg:text-base text-sm">I am a natural-born leader who inspires and motivates those around me. Through my actions and words, I instil a sense of purpose and direction, empowering individuals to strive for their best.</p>
                 </div>
               </div>

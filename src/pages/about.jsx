@@ -17,6 +17,7 @@ const About = () => {
               <li>Master of Science, (MSc) in Human Resources Management from Enugu State University of Technology, Enugu, Nigeria</li>
               <li>Executive Masters Certificate (EMC) in Human Resources Management at East Midlands School of Business & Management, UK</li>
               <li>Doctorate degree in Strategic Management and Leadership from The University of America, Curaçao.</li>
+              <li> Advanced Diploma  Certificate in  Educational Management & Leadership -   London Business College</li>
             </ul>
             <Link href="/about#professional">
               <button className='p-4 bg-[#011627] lg:text-lg text-sm rounded-md text-white w-full my-6'>View professional Certification</button>
@@ -29,9 +30,9 @@ const About = () => {
           <div className='lg:w-[45%] lg:order-first my-auto'>
             <h3 className='font-bold text-xl my-8'>Professional Certifications</h3>
             <ul>
-              <li>Professional Certified Coach (PCC) -- In view</li>
-              <li>Certified Practitioner (CP) -- in view</li>
-              <li>Senior Certified Professional Coach (SCPC) -- in view</li>
+              <li>Professional Certified Coach (PCC)</li>
+              <li>Certified Practitioner (CP)</li>
+              <li>Senior Certified Professional Coach (SCPC)</li>
 
               <li>Chartered Finance Professional, (CFP), USA</li>
               <li>Fellow of the Chartered Business Institute, London. (FCBI, dip. MIS)</li>

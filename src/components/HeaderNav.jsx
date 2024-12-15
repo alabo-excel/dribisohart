@@ -52,7 +52,7 @@ const HeaderNav = () => {
             <p className='my-5'>Blog</p>
           </a> */}
           {/* <Link href='/#contact'></Link> */}
-          <a href="https://lifematicswithdribisohart.com/"><button onClick={() => closeNav()} className='bg-white my-5 rounded-full w-full p-4 text-[#011627]'>Lifematics Blog</button></a>
+          <a href="https://lifematicswithdribisohart.com/"><button onClick={() => closeNav()} className='bg-white my-5 rounded-full w-full p-4 text-[#011627]'>Lifematics Lifestyle</button></a>
         </div>
       </div>
     </div>

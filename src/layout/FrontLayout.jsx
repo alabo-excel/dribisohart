@@ -8,7 +8,7 @@ const FrontLayout = ({ children }) => {
   return (
     <Fragment>
       <Head>
-        <title> Dr. Ibiso Darlington Hart </title>
+        <title>Dr Ibiso HART- Your Partner in Personal Evolution</title>
         <meta property="og:type" content="website" />
         <meta property="og:title" content="Dr. Ibiso Darlington Hart" />
         <meta property="og:description" content="Ibiso Darlington Hart (PhD) is a highly accomplished business development strategist and leadership professional with an impressive career spanning over two decades. Throughout her diverse professional journey, she has gained extensive experience in various industries, including banking and the Aviation Sector." />
