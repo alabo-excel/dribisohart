@@ -66,11 +66,11 @@ const Home = () => {
               <div className='absolute top-0  opacity-50 w-full h-full bg-[#011627]'></div>
               <div className='absolute bottom-2 lg:left-20 left-5 right-5 z-20 text-white'>
                 <div className="lg:w-[40%] z-20 lg:order-first order-last">
-                  <h1 className="lg:text-5xl text-3xl font-black leading-tight">Dr. Ibiso <br /> Darlington Hart</h1> <br /> <br />
-                  <p>Certified Proffessional Coach</p>
+                  <h1 className="lg:text-5xl style text-3xl font-black leading-tight">Dr. Ibiso <br /> Darlington Hart</h1> <br /> <br />
+                  <p>A Certified Lifestyle Coach</p>
                   <p>Your Partner in Personal Evolution</p>
-                  <p className="my-3 lg:text-base text-sm">CTA- Certified Professional Coach (CTA-CPC), CTA- Senior Certified Professional Coach (CTA-SCPC)</p>
-                  <p className="my-5 lg:text-base text-sm">I am a natural-born leader who inspires and motivates those around me. Through my actions and words, I instil a sense of purpose and direction, empowering individuals to strive for their best.</p>
+                  <p className="my-3 lg:text-base text-sm">CTA- Certified Professional Coach, CTA- Senior Certified Professional Coach</p>
+                  <p className="mb-5 lg:text-base text-sm">I am a natural-born leader who inspires and motivates those around me. Through my actions and words, I instil a sense of purpose and direction, empowering individuals to strive for their best.</p>
                 </div>
               </div>
             </div>
@@ -93,6 +93,25 @@ const Home = () => {
               </div>
             </div> */}
           </Carousel>
+        </div>
+
+        <div className=' bg-[#CDE8FE] mt-20 p-8 text-center'>
+          <div className="max-w-4xl mx-auto">
+            <h2 className="text-4xl font-bold text-gray-800 mb-4">
+              Ready to Start Your Own Success Story?
+            </h2>
+            <p className="text-lg text-center text-gray-700 mb-8">
+              Crush your goals, overcome challenges, and take your life to the next level.
+              Your transformation starts with a single step!
+            </p>
+            <a href="https://lifematicswithdribisohart.com/">
+              <button
+                className="bg-[#011627] text-white font-semibold text-lg py-3 px-8  shadow-md transition-transform transform hover:scale-105"
+              >
+                Schedule Your Discovery Session Now
+              </button>
+            </a>
+          </div>
         </div>
 
         <div className="lg:flex bg-[#FBFBFB] justify-between lg:py-20 py-10 lg:px-20 px-6">
