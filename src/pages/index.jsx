@@ -69,7 +69,7 @@ const Home = () => {
                   <h1 className="lg:text-5xl style text-3xl font-black leading-tight">Dr. Ibiso <br /> Darlington Hart</h1> <br /> <br />
                   <p>A Certified Lifestyle Coach</p>
                   <p>Your Partner in Personal Evolution</p>
-                  <p className="my-3 lg:text-base text-sm">CTA- Certified Professional Coach, CTA- Senior Certified Professional Coach</p>
+                  <p className="my-3 lg:text-base text-sm">Certified Professional Coach, Senior Certified Professional Coach</p>
                   <p className="mb-5 lg:text-base text-sm">I am a natural-born leader who inspires and motivates those around me. Through my actions and words, I instil a sense of purpose and direction, empowering individuals to strive for their best.</p>
                 </div>
               </div>
