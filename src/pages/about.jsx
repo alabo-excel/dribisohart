@@ -30,7 +30,7 @@ const About = () => {
           <div className='lg:w-[45%] lg:order-first my-auto'>
             <h3 className='font-bold text-xl my-8'>Professional Certifications</h3>
             <ul>
-              <li>Professional Certified Coach (PCC)</li>
+              {/* <li>Professional Certified Coach (PCC)</li> */}
               <li>Certified Practitioner (CP)</li>
               <li>Senior Certified Professional Coach (SCPC)</li>
 
