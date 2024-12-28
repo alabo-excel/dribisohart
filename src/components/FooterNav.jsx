@@ -8,19 +8,23 @@ const FooterNav = () => {
 
   return (
     <div className='bg-[#011627] lg:text-lg text-sm text-white p-6'>
-      <div className='flex justify-evenly my-6 lg:w-1/2 mx-auto'>
+      <div className='lg:flex justify-evenly my-6 lg:w-1/2 mx-auto'>
         <Link href='/'>
-          <p className='my-auto'>Home</p>
+          <p className='lg:my-auto my-3'>Home</p>
         </Link>
         <Link href="/about">
-          <p className='my-auto'>About</p>
+          <p className='lg:my-auto my-3'>About</p>
         </Link>
-        <p className='my-auto'>Books</p>
-        <p className='my-auto'>Media</p>
+        <Link href={'/books'}>
+          <p className='lg:my-auto my-3'>Books</p>
+        </Link>
+        <Link href={'/gallery'}>
+          <p className='lg:my-auto my-3'>Media</p>
+        </Link>
 
-        <Link href="/#contact"><p className='my-auto'>Contact</p></Link>
+        <Link href="/#contact"><p className='lg:my-auto my-3'>Contact</p></Link>
         <a href="http://lifematicswithdribisohart.com/">
-          <p className='my-auto'>Life Matic Blog</p>
+          <p className='lg:my-auto my-3'>Life Matic Blog</p>
         </a>
       </div>
 

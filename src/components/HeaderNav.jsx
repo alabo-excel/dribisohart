@@ -23,7 +23,7 @@ const HeaderNav = () => {
           <p className='my-auto'><Link href="/about">About</Link></p>
           <p className='my-auto'><Link href="/about#expertise">Expertise</Link></p>
 
-          <p className='my-auto'><Link href="/about">Books</Link></p>
+          <p className='my-auto'><Link href="/books">Books</Link></p>
           <p className='my-auto'><Link href="/gallery">Media</Link></p>
 
           <p className='my-auto'><Link href="/#contact">Contact</Link></p>
@@ -44,7 +44,7 @@ const HeaderNav = () => {
           <div className="pt-20"></div>
           <Link onClick={() => closeNav()} href='/'><p className='my-5'>Home</p></Link>
           <Link onClick={() => closeNav()} href='/about'><p className='my-5'>About</p></Link>
-          <Link onClick={() => closeNav()} href='/#books'><p className='my-5'>Books</p></Link>
+          <Link onClick={() => closeNav()} href='/books'><p className='my-5'>Books</p></Link>
           <Link onClick={() => closeNav()} href='/#contact'><p className='my-5'>Contact</p></Link>
           <Link onClick={() => closeNav()} href='/gallery'><p className='my-5'>Media</p></Link>
 
