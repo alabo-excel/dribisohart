@@ -4,21 +4,22 @@ import FrontLayout from '@/layout/FrontLayout';
 import Link from 'next/link';
 import { message } from 'antd';
 import Slider from '@/components/Slider';
+import { VisionMissionSection } from '@/components/VisionMission';
 
 
 const Home = () => {
-  // const [messageApi, contextHolder] = message.useMessage();
+  const [messageApi, contextHolder] = message.useMessage();
 
 
 
   const [name, setName] = useState("")
   const [email, setEmail] = useState("")
   const [subject, setSubject] = useState("")
-  const [message, setMessage] = useState("")
+  const [messages, setMessage] = useState("")
   const [loading, setLoading] = useState(false)
   const sendMessage = () => {
     setLoading(true)
-    fetch("https://formsubmit.co/ajax/dribisohart@gmail.com", {
+    fetch("https://formsubmit.co/ajax/13f31a938690a6f51223ac7d97410249", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -26,7 +27,7 @@ const Home = () => {
       },
       body: JSON.stringify({
         name: name,
-        message: message,
+        message: messages,
         subject: subject,
         email: email,
       }),
@@ -98,7 +99,7 @@ const Home = () => {
         <div className=' bg-[#CDE8FE] mt-20 p-8 text-center'>
           <div className="max-w-4xl mx-auto">
             <h2 className="text-4xl font-bold text-gray-800 mb-4">
-              Ready to Start Your Own Success Story?
+              Ready to Embrace Your Potential to Rewrite Your Story
             </h2>
             <p className="text-lg text-center text-gray-700 mb-8">
               Crush your goals, overcome challenges, and take your life to the next level.
@@ -119,14 +120,14 @@ const Home = () => {
             <img src="./images/IMGL9466.jpg" className=" w-full object-cover rounded-2xl" alt="" />
           </div>
           <div className="lg:w-1/2 my-auto">
-            <h1 className="lg:text-3xl text-xl font-bold mb-4">About</h1>
+            <h1 className="lg:text-3xl text-xl font-bold mb-4">ABOUT ME</h1>
             <p className="lg:text-lg text-sm">
-              Dr Ibiso Hart is a visionary Business Development Expert, driven by her own profound journey of self-discovery and transformation, Dr. Hart empowers businesses to thrive and individuals to unlock their full potentials and navigate life's challenges with resilience and adaptability.
+              Dr Ibiso Hart is a visionary Certified Lifestyle Coach, driven by her own profound journey of self-discovery and transformation, Dr. Hart empowers businesses to thrive and individuals to unlock their full potentials and navigate life's challenges with resilience and adaptability.
               <br /> <br />
               <b>Proven Expertise: </b> <br />
               With over two decades of experience and  a PhD in Strategic Management and Leadership, and a diverse background spanning from teaching & coaching, banking, oil and gas, aviation, and catering, Dr. Hart brings a unique blend of expertise to her work. This rich tapestry of experience has instilled in her a deep understanding of the diverse challenges and opportunities faced by individuals across various industries.
               <br /> <br />
-              Dr. Hart's impact is undeniable.  She has consistently delivered exceptional results, driving operational excellence in Small and Medium Enterprises (SMEs), and Large Enterprises (LEs) fostering a culture of innovation in organizations, and promoting a supportive ecosystem for business growth and personal transformation.
+              With a profound commitment to holistic personal development, she empowers individuals to unlock their fullest potential and navigate life's complex challenges gracefully and purposefully.
             </p>
             <Link href="/about">
               <button className="p-4 bg-[#011627] lg:text-lg text-sm rounded-md text-white w-full my-6">View Educational Qualification</button>
@@ -134,7 +135,11 @@ const Home = () => {
           </div>
         </div>
 
-        <div className=' bg-[#CDE8FE] mx-auto py-20 text-center'>
+        <div className='lg:px-20 px-4'>
+          <VisionMissionSection />
+        </div>
+
+        <div className='bg-[#CDE8FE] mx-auto py-20 text-center'>
           <div className='mb-10'>
             <h1 className='lg:text-3xl text-xl font-bold'>Testimonials</h1>
             <p className='lg:text-lg text-center text-sm'>Check out what people say about me.</p>
