@@ -22,16 +22,16 @@ export function VisionMissionSection() {
         />
 
         <div className="relative z-10">
-          <h2 style={{ textAlign: 'left' }} className="text-4xl font-black text-white mb-4">
+          <h2 style={{ textAlign: 'left' }} className="text-4xl font-black text-gray-900 mb-4">
             Vision
           </h2>
-          <p style={{ textAlign: 'left' }} className="text-white/80 text-sm lg:text-base leading-relaxed max-w-xs">
+          <p style={{ textAlign: 'left' }} className="text-gray-800 text-sm lg:text-base leading-relaxed max-w-xs">
             To empower individuals worldwide to unlock their potential, live authentically, and cultivate significant lives.
           </p>
         </div>
 
         <div className="relative z-10 flex items-end justify-between mt-10">
-          <p style={{ textAlign: 'left' }} className="text-white/55 text-xs">
+          <p style={{ textAlign: 'left' }} className="text-gray-600 text-xs">
             Dr. Ibiso Hart — Coaching Philosophy
           </p>
           {/* <div className="w-8 h-8 rounded-full border border-white/40 flex items-center justify-center text-white/70">
