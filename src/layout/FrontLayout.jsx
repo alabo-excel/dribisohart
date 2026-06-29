@@ -3,7 +3,7 @@ import Head from "next/head"
 import HeaderNav from "@/components/HeaderNav";
 import FooterNav from '@/components/FooterNav';
 
-const FrontLayout = ({ children }) => {
+const FrontLayout = ({ children, disableSticky = false }) => {
 
   return (
     <Fragment>
@@ -21,7 +21,7 @@ const FrontLayout = ({ children }) => {
         <meta name="twitter:image" content="https://res.cloudinary.com/dxrvhgjkp/image/upload/v1697380570/image_o9dun0.png" />
 
       </Head>
-      <HeaderNav />
+      <HeaderNav disableSticky={disableSticky} />
       {children}
       <FooterNav />
     </Fragment>
