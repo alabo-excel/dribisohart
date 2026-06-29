@@ -9,15 +9,16 @@ const navLinks = [
   { label: 'Media', href: '/gallery' },
 ];
 
-const HeaderNav = () => {
+const HeaderNav = ({ disableSticky = false }) => {
   const [open, setOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
 
   useEffect(() => {
+    if (disableSticky) return;
     const onScroll = () => setScrolled(window.scrollY > 24);
     window.addEventListener('scroll', onScroll);
     return () => window.removeEventListener('scroll', onScroll);
-  }, []);
+  }, [disableSticky]);
 
   const openNav = () => {
     document.getElementById('mySidenav').style.width = '100%';
@@ -32,13 +33,12 @@ const HeaderNav = () => {
     <>
       {/* ── main navbar ── */}
       <nav
-        className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-          scrolled
+        className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${scrolled || disableSticky
             ? 'bg-white border-b border-gray-100 shadow-sm'
             : 'bg-transparent'
-        }`}
+          }`}
       >
-        <div className="max-w-7xl mx-auto px-6 lg:px-12 h-16 flex items-center justify-between relative">
+        <div className="max-w-7xl mx-auto px-6 lg:px-0 h-16 flex items-center justify-between relative">
 
           {/* Logo */}
           <Link href="/">
@@ -50,11 +50,10 @@ const HeaderNav = () => {
             {navLinks.map((l) => (
               <Link key={l.label} href={l.href}>
                 <span
-                  className={`text-sm transition-colors duration-200 cursor-pointer ${
-                    scrolled
+                  className={`text-sm transition-colors duration-200 cursor-pointer ${scrolled || disableSticky
                       ? 'text-gray-500 hover:text-[#011627]'
                       : 'text-white/80 hover:text-white'
-                  }`}
+                    }`}
                 >
                   {l.label}
                 </span>
@@ -66,11 +65,10 @@ const HeaderNav = () => {
           <div className="hidden lg:flex items-center gap-4">
             <a href="http://lifematicswithdribisohart.com/" target="_blank" rel="noreferrer">
               <button
-                className={`text-sm font-semibold px-5 py-2.5 rounded-full transition-all duration-300 ${
-                  scrolled
+                className={`text-sm font-semibold px-5 py-2.5 rounded-full transition-all duration-300 ${scrolled || disableSticky
                     ? 'bg-[#011627] text-white hover:bg-[#012d4a]'
                     : 'bg-white text-[#011627] hover:bg-white/90'
-                }`}
+                  }`}
               >
                 Lifematics Blog
               </button>
@@ -83,9 +81,9 @@ const HeaderNav = () => {
             className={`lg:hidden flex flex-col gap-1.5 cursor-pointer ${scrolled ? '' : ''}`}
             aria-label="Open menu"
           >
-            <span className={`block w-6 h-0.5 transition-colors duration-300 ${scrolled ? 'bg-[#011627]' : 'bg-white'}`} />
-            <span className={`block w-6 h-0.5 transition-colors duration-300 ${scrolled ? 'bg-[#011627]' : 'bg-white'}`} />
-            <span className={`block w-4 h-0.5 transition-colors duration-300 ${scrolled ? 'bg-[#011627]' : 'bg-white'}`} />
+            <span className={`block w-6 h-0.5 transition-colors duration-300 ${scrolled || disableSticky ? 'bg-[#011627]' : 'bg-white'}`} />
+            <span className={`block w-6 h-0.5 transition-colors duration-300 ${scrolled || disableSticky ? 'bg-[#011627]' : 'bg-white'}`} />
+            <span className={`block w-4 h-0.5 transition-colors duration-300 ${scrolled || disableSticky ? 'bg-[#011627]' : 'bg-white'}`} />
           </button>
         </div>
       </nav>

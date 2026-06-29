@@ -34,7 +34,7 @@ const FooterNav = () => {
   const year = new Date().getFullYear();
 
   return (
-    <footer className="bg-white py-8 px-4 lg:px-8">
+    <footer className="bg-white py-8 px-4 mt-10 lg:px-8">
 
       {/* ── dark rounded card ── */}
       <div className="max-w-6xl mx-auto bg-[#0f1c2e] rounded-2xl overflow-hidden">

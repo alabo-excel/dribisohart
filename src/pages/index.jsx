@@ -81,7 +81,7 @@ const Home = () => {
               {/* gradient overlay — richer than flat opacity */}
               <div className="absolute inset-0 bg-gradient-to-r from-[#011627]/85 via-[#011627]/50 to-transparent" />
 
-              <div className="absolute bottom-0 left-0 right-0 lg:bottom-10 lg:left-20 z-20 text-white px-6 pb-10 lg:pb-0">
+              <div className="absolute bottom-0 left-0 right-0 lg:bottom-10 lg:left-16 z-20 text-white px-6 pb-10 lg:pb-0">
                 {/* badge */}
                 <div className="inline-flex items-center gap-2 bg-white/10 border border-white/20 backdrop-blur-sm rounded-full px-4 py-1.5 mb-4 text-sm">
                   {/* <HiSparkles className="text-yellow-300" /> */}
