@@ -42,8 +42,23 @@ const Home = () => {
   const [subject, setSubject] = useState('');
   const [messages, setMessage] = useState('');
   const [loading, setLoading] = useState(false);
+  const [errors, setErrors] = useState({ name: '', email: '', subject: '', message: '' });
+
+  const clearError = (field) => setErrors((prev) => ({ ...prev, [field]: '' }));
+
+  const validate = () => {
+    const e = { name: '', email: '', subject: '', message: '' };
+    if (!name.trim())    e.name    = 'Name is required';
+    if (!email.trim())   e.email   = 'Email is required';
+    else if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) e.email = 'Enter a valid email address';
+    if (!subject.trim()) e.subject = 'Subject is required';
+    if (!messages.trim()) e.message = 'Message is required';
+    setErrors(e);
+    return !e.name && !e.email && !e.subject && !e.message;
+  };
 
   const sendMessage = () => {
+    if (!validate()) return;
     setLoading(true);
     fetch('https://formsubmit.co/ajax/13f31a938690a6f51223ac7d97410249', {
       method: 'POST',
@@ -55,6 +70,7 @@ const Home = () => {
         if (data.success === 'true') {
           message.open({ type: 'success', content: 'Message sent successfully!' });
           setName(''); setEmail(''); setSubject(''); setMessage('');
+          setErrors({ name: '', email: '', subject: '', message: '' });
         }
         setLoading(false);
       })
@@ -252,51 +268,63 @@ const Home = () => {
 
             <div className="bg-white rounded-3xl shadow-xl p-8 space-y-5">
               {/* Name */}
-              <div className="relative">
-                <MdPerson className="absolute left-4 top-1/2 -translate-y-1/2 text-xl text-gray-400" />
-                <input
-                  value={name}
-                  onChange={(e) => setName(e.target.value)}
-                  type="text"
-                  placeholder="Your Name"
-                  className="w-full pl-11 pr-4 py-3.5 border border-gray-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-[#011627]/30 focus:border-[#011627] transition-all text-sm"
-                />
+              <div>
+                <div className="relative">
+                  <MdPerson className="absolute left-4 top-1/2 -translate-y-1/2 text-xl text-gray-400" />
+                  <input
+                    value={name}
+                    onChange={(e) => { setName(e.target.value); clearError('name'); }}
+                    type="text"
+                    placeholder="Your Name"
+                    className={`w-full pl-11 pr-4 py-3.5 border rounded-xl focus:outline-none focus:ring-2 transition-all text-sm ${errors.name ? 'border-red-400 focus:ring-red-400/30 focus:border-red-400' : 'border-gray-200 focus:ring-[#011627]/30 focus:border-[#011627]'}`}
+                  />
+                </div>
+                {errors.name && <p className="text-red-500 text-xs mt-1.5 ml-1">{errors.name}</p>}
               </div>
 
               {/* Email */}
-              <div className="relative">
-                <MdEmail className="absolute left-4 top-1/2 -translate-y-1/2 text-xl text-gray-400" />
-                <input
-                  value={email}
-                  onChange={(e) => setEmail(e.target.value)}
-                  type="email"
-                  placeholder="Email Address"
-                  className="w-full pl-11 pr-4 py-3.5 border border-gray-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-[#011627]/30 focus:border-[#011627] transition-all text-sm"
-                />
+              <div>
+                <div className="relative">
+                  <MdEmail className="absolute left-4 top-1/2 -translate-y-1/2 text-xl text-gray-400" />
+                  <input
+                    value={email}
+                    onChange={(e) => { setEmail(e.target.value); clearError('email'); }}
+                    type="email"
+                    placeholder="Email Address"
+                    className={`w-full pl-11 pr-4 py-3.5 border rounded-xl focus:outline-none focus:ring-2 transition-all text-sm ${errors.email ? 'border-red-400 focus:ring-red-400/30 focus:border-red-400' : 'border-gray-200 focus:ring-[#011627]/30 focus:border-[#011627]'}`}
+                  />
+                </div>
+                {errors.email && <p className="text-red-500 text-xs mt-1.5 ml-1">{errors.email}</p>}
               </div>
 
               {/* Subject */}
-              <div className="relative">
-                <MdSubject className="absolute left-4 top-1/2 -translate-y-1/2 text-xl text-gray-400" />
-                <input
-                  value={subject}
-                  onChange={(e) => setSubject(e.target.value)}
-                  type="text"
-                  placeholder="Subject"
-                  className="w-full pl-11 pr-4 py-3.5 border border-gray-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-[#011627]/30 focus:border-[#011627] transition-all text-sm"
-                />
+              <div>
+                <div className="relative">
+                  <MdSubject className="absolute left-4 top-1/2 -translate-y-1/2 text-xl text-gray-400" />
+                  <input
+                    value={subject}
+                    onChange={(e) => { setSubject(e.target.value); clearError('subject'); }}
+                    type="text"
+                    placeholder="Subject"
+                    className={`w-full pl-11 pr-4 py-3.5 border rounded-xl focus:outline-none focus:ring-2 transition-all text-sm ${errors.subject ? 'border-red-400 focus:ring-red-400/30 focus:border-red-400' : 'border-gray-200 focus:ring-[#011627]/30 focus:border-[#011627]'}`}
+                  />
+                </div>
+                {errors.subject && <p className="text-red-500 text-xs mt-1.5 ml-1">{errors.subject}</p>}
               </div>
 
               {/* Message */}
-              <div className="relative">
-                <MdMessage className="absolute left-4 top-4 text-xl text-gray-400" />
-                <textarea
-                  value={messages}
-                  onChange={(e) => setMessage(e.target.value)}
-                  placeholder="Your Message"
-                  rows={5}
-                  className="w-full pl-11 pr-4 py-3.5 border border-gray-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-[#011627]/30 focus:border-[#011627] transition-all text-sm resize-none"
-                />
+              <div>
+                <div className="relative">
+                  <MdMessage className="absolute left-4 top-4 text-xl text-gray-400" />
+                  <textarea
+                    value={messages}
+                    onChange={(e) => { setMessage(e.target.value); clearError('message'); }}
+                    placeholder="Your Message"
+                    rows={5}
+                    className={`w-full pl-11 pr-4 py-3.5 border rounded-xl focus:outline-none focus:ring-2 transition-all text-sm resize-none ${errors.message ? 'border-red-400 focus:ring-red-400/30 focus:border-red-400' : 'border-gray-200 focus:ring-[#011627]/30 focus:border-[#011627]'}`}
+                  />
+                </div>
+                {errors.message && <p className="text-red-500 text-xs mt-1.5 ml-1">{errors.message}</p>}
               </div>
 
               <button
