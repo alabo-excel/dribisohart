@@ -1,6 +1,35 @@
 import FrontLayout from '@/layout/FrontLayout';
-import React from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import { FaAmazon } from 'react-icons/fa';
+
+const RevealSection = ({ children, delay = 0 }) => {
+  const ref = useRef(null);
+  const [visible, setVisible] = useState(false);
+
+  useEffect(() => {
+    const el = ref.current;
+    if (!el) return;
+    const observer = new IntersectionObserver(
+      ([entry]) => { if (entry.isIntersecting) { setVisible(true); observer.disconnect(); } },
+      { threshold: 0.1 }
+    );
+    observer.observe(el);
+    return () => observer.disconnect();
+  }, []);
+
+  return (
+    <div
+      ref={ref}
+      style={{
+        opacity: visible ? 1 : 0,
+        transform: visible ? 'translateY(0)' : 'translateY(36px)',
+        transition: `opacity 0.65s ease ${delay}ms, transform 0.65s ease ${delay}ms`,
+      }}
+    >
+      {children}
+    </div>
+  );
+};
 
 const GumroadIcon = () => (
   <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
@@ -29,6 +58,7 @@ const books = () => {
         {/* <HeaderNav disableSticky /> */}
 
         {/* ── Hero / Book Feature ── */}
+        <RevealSection>
         <section className="pt-16">
           <div className="max-w-7xl mx-auto px-6 lg:px-12 py-16 lg:py-24">
             <div className="lg:grid lg:grid-cols-2 lg:gap-20 items-center">
@@ -111,8 +141,10 @@ const books = () => {
             </div>
           </div>
         </section>
+        </RevealSection>
 
         {/* ── About the Book (dark section) ── */}
+        <RevealSection>
         <section className="bg-[#011627] py-16 lg:py-24">
           <div className="max-w-7xl mx-auto px-6 lg:px-12">
             <p className="text-white/30 text-xs font-bold tracking-widest uppercase mb-10">
@@ -184,6 +216,7 @@ const books = () => {
             </div>
           </div>
         </section>
+        </RevealSection>
       </div>
     </FrontLayout>
   );
